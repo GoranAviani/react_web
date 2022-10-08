@@ -7,7 +7,7 @@ const Navigation = () => {
     return (
         <div className='Navigation'>
         <div className='Logo'>
-        Logo
+        WollyBooly
         </div>
 
             <div className='CenterMenu'>

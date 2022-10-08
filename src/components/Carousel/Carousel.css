@@ -21,8 +21,7 @@
   -webkit-align-items: center;
   align-items: center;
 }
-.CarouselCard{
-}
+
 .swiper-slide img {
   display: block;
   width: 100%;
@@ -33,7 +32,7 @@
 .swiper-slide .text {
 position: absolute;
   left: 50%;
-  top: 50%;
+  top: 30%;
   transform: translate(-50%, -50%);
   color: black;
   font-weight: bold;

@@ -1,9 +1,13 @@
 import React from 'react';
 import Typography from "@mui/material/Typography";
+import Button from '@mui/material/Button';
+
+
 const TEXT = {
     handSewnOrganicWool: "Handsewn With Organic Wool",
     winterOffer: "Winter offer",
-    collectionTwoTwenty: "2022 Colletction"
+    collectionTwoTwenty: "2022 Colletction",
+    shopNow: "Shop Now"
 }
 
 const CarouselText = () => {
@@ -22,6 +26,13 @@ const CarouselText = () => {
                                         component="div">
                                 {TEXT.collectionTwoTwenty}
                             </Typography>
+            <Button  style={{
+        borderRadius: 0,
+                color: "#000",
+                borderColor: "#000",
+        padding: "18px 36px",
+        fontSize: "18px"
+    }} variant="outlined">{TEXT.shopNow}</Button>
           </div>
     )
 }
