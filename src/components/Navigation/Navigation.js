@@ -5,7 +5,21 @@ import './Navigation.css'
 const Navigation = () => {
 
     return (
-        <div>This is navigation</div>
+        <div className='Navigation'>
+        <div className='Logo'>
+        Logo
+        </div>
+
+            <div className='CenterMenu'>
+               Center Menu
+            </div>
+
+                    <div className='RightSideMenu'>
+                RightSideMenu
+            </div>
+
+
+        </div>
     )
 }
 
