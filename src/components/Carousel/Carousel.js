@@ -5,13 +5,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
-
+import {image1, image2} from "../../static/images/images";
 
 const Carousel = () => {
-
+    console.log({image1})
     return (
          <>
       <Swiper
@@ -37,8 +36,8 @@ const Carousel = () => {
           slot="container-start"
           className="parallax-bg"
           style={{
-            "background-image":
-              "url(https://swiperjs.com/demos/images/nature-1.jpg)",
+            "backgroundImage":
+                {image1},
               "width": "100%",
               "height": "100%",
           }}
@@ -65,7 +64,20 @@ const Carousel = () => {
           </div>
                 </div>
 </SwiperSlide>
-        <SwiperSlide>          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+        <SwiperSlide>
+            <div className="CarouselCard"></div>
+            <img src={image1} />
+          <div className="text" data-swiper-parallax="-100">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+              dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
+              laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
+              Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
+              Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
+              ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
+              tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+            </p>
+          </div>
 </SwiperSlide>
       </Swiper>
     </>
