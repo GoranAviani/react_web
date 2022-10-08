@@ -27,7 +27,7 @@ const CarouselText = () => {
                                         component="div">
                                 {TEXT.collectionTwoTwenty}
                             </Typography>
-                        <Spacer size={36} />
+                        <Spacer axis="vertical" size={80} />
 
             <Button  style={{
         borderRadius: 0,

@@ -32,7 +32,7 @@
 .swiper-slide .text {
 position: absolute;
   left: 50%;
-  top: 30%;
+  top: 40%;
   transform: translate(-50%, -50%);
   color: black;
   font-weight: bold;
