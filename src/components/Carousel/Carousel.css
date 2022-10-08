@@ -22,9 +22,6 @@
   align-items: center;
 }
 .CarouselCard{
-  display: flex;            /* establish flex container */
-  flex-direction: column;   /* stack flex items vertically */
-  position: relative;       /* establish neares positioned ancenstor for absolute positioning */
 }
 .swiper-slide img {
   display: block;
