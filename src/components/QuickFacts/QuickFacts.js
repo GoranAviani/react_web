@@ -1,11 +1,22 @@
 import React from 'react'
-import 'QuickFacts.css'
+import './QuickFacts.css'
 
 const QuickFacts = () => {
 
     return(
-        <div>
-            facts
+        <div className="quickFacts">
+            <div>
+                a
+            </div>
+            <div>
+                a
+            </div><div>
+                a
+            </div><div>
+                a
+            </div>
+
+
         </div>
     )
 }
