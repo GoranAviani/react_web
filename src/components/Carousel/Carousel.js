@@ -15,7 +15,7 @@ const Carousel = () => {
          <>
       <Swiper
            style={{
-          "--swiper-navigation-color": "#fff",
+          "--swiper-navigation-color": "#696969",
           "--swiper-pagination-color": "#fff",
         }}
         spaceBetween={30}
@@ -32,25 +32,8 @@ const Carousel = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-            <div
-          slot="container-start"
-          className="parallax-bg"
-          style={{
-            "backgroundImage":
-                {image1},
-              "width": "100%",
-              "height": "100%",
-          }}
-          data-swiper-parallax="-23%"
-        >
-
-
-             <div className="title" data-swiper-parallax="-300">
-            Slide 1
-          </div>
-          <div className="subtitle" data-swiper-parallax="-200">
-            Subtitle
-          </div>
+         <div className="CarouselCard"></div>
+            <img src={image2} />
           <div className="text" data-swiper-parallax="-100">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
@@ -62,11 +45,10 @@ const Carousel = () => {
               tincidunt ut libero. Aenean feugiat non eros quis feugiat.
             </p>
           </div>
-                </div>
 </SwiperSlide>
         <SwiperSlide>
             <div className="CarouselCard"></div>
-            <img src={image1} />
+            <img src={image2} />
           <div className="text" data-swiper-parallax="-100">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
