@@ -9,7 +9,6 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import {image1, image2} from "../../static/images/images";
 import CarouselText from "./partials/CarouselText";
-
 const Carousel = () => {
     console.log({image1})
     return (
