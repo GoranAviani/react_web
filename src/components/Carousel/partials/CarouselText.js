@@ -21,7 +21,7 @@ const CarouselText = () => {
 
                   <Typography variant="h3"
                                         component="div">
-                                {TEXT.handSewnOrganicWool}
+                                {TEXT.winterOffer}
                             </Typography>
                   <Typography variant="h3"
                                         component="div">
