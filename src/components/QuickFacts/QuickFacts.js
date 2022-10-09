@@ -6,6 +6,10 @@ import QuickFactsInfoRightSide from "./partials/QuickFactsInfoRightSide";
 import QuickFactsInfoLeftSide from "./partials/QuickFactsInfoLeftSide";
 import {ourWoolUrl, knittingUrl, greenDeliveryUrl, peopleAndPlanetUrl} from "../../Route_urls";
 import OurWool from "./ExtraPages/OurWool";
+import Knitting from "./ExtraPages/Knitting";
+
+import GreenDelivery from "./ExtraPages/GreenDelivery";
+import PeopleAndPlanet from "./ExtraPages/PeopleAndPlanet";
 
 const TEXT = {
     weUseOnlyOrganicWool: "Ecologic organic wool",
@@ -28,19 +32,19 @@ const QuickFacts = () => {
                 <div className="quickFactsInfo">
                     <QuickFactsInfoLeftSide src={knitting_64}/>
                     <QuickFactsInfoRightSide text={TEXT.allOurProductsAreHandKnitted} linkText={TEXT.readMore}
-                                             linkUrl={knittingUrl}/>
+                                             component={<Knitting/>}/>
 
                 </div>
                 <div className="quickFactsInfo">
                     <QuickFactsInfoLeftSide src={shipped_64}/>
                     <QuickFactsInfoRightSide text={TEXT.greenDelivery} linkText={TEXT.readMore}
-                                             linkUrl={greenDeliveryUrl}/>
+                                             component={<GreenDelivery/>}/>
 
                 </div>
                 <div className="quickFactsInfo">
                     <QuickFactsInfoLeftSide src={planet_earth_64}/>
                     <QuickFactsInfoRightSide text={TEXT.forPeopleAndPlanet} linkText={TEXT.readMore}
-                                             linkUrl={peopleAndPlanetUrl}/>
+                                             component={<PeopleAndPlanet/>}/>
                 </div>
 
 
