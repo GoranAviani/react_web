@@ -5,3 +5,6 @@ export const shipped_64 = require('./quickFacts/shipped_64.png');
 export const planet_earth_64 = require('./quickFacts/planet_earth_64.png');
 
 export const sheep_color_64 = require('./quickFacts/sheep_color_64.png');
+export const planet_earth_color_64 = require('./quickFacts/planet_earth_color_64.png');
+export const shipped_color_64 = require('./quickFacts/shipped_color_64.png');
+export const knitting_color_64 = require('./quickFacts/knitting_color_64.png');
