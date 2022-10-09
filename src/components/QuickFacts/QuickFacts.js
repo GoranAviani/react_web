@@ -1,6 +1,6 @@
 import React from 'react'
 import './QuickFacts.css'
-import {sheep_64, wool_64, shipped_64, planet_earth_64} from "../../static/icons/icons";
+import {sheep_64, knitting_64, shipped_64, planet_earth_64} from "../../static/icons/icons";
 
 const QuickFacts = () => {
 
@@ -10,7 +10,7 @@ const QuickFacts = () => {
                 <img src={sheep_64}/>
             </div>
             <div>
-                <img src={wool_64}/>
+                <img src={knitting_64}/>
 
             </div>
             <div>
