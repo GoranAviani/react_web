@@ -34,7 +34,7 @@ const QuickFacts = () => {
                 </div>
                 <div>
                     <QuickFactsInfoLeftSide src={planet_earth_64}/>
-                    <QuickFactsInfoRightSide text={TEXT.greenDelivery} linkText={TEXT.readMore}/>
+                    <QuickFactsInfoRightSide text={TEXT.forPeopleAndPlanet} linkText={TEXT.readMore}/>
                 </div>
 
 
