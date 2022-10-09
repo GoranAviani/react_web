@@ -13,14 +13,3 @@
     object-fit: cover;
     opacity: 0.5;
 }
-
-.swiper-slide .text {
-
-    position: absolute;
-    text-align: center;
-    left: 50%;
-    top: 40%;
-    transform: translate(-50%, -50%);
-    color: black;
-    font-weight: bold;
-}

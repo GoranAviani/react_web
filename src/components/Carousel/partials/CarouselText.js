@@ -2,6 +2,7 @@ import React from 'react';
 import Typography from "@mui/material/Typography";
 import Button from '@mui/material/Button';
 import Spacer from "../../Spacer";
+import './CarouselText.css'
 
 const TEXT = {
     handSewnOrganicWool: "Hand Knit With Organic Wool",
@@ -11,9 +12,9 @@ const TEXT = {
 }
 
 const CarouselText = () => {
-    
+
     return (
-        <div className="text" data-swiper-parallax="-100">
+        <div className="carousel-text" data-swiper-parallax="-100">
             <Typography variant="h5"
                         component="div">
                 {TEXT.handSewnOrganicWool}
