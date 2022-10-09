@@ -8,8 +8,8 @@ import QuickFactsInfoLeftSide from "./partials/QuickFactsInfoLeftSide";
 const TEXT = {
     weUseOnlyOrganicWool: "Ecologic organic wool",
     allOurProductsAreHandKnitted: "100% hand knitted",
-    forPeopleAndPlanet: "For people and planet",
     greenDelivery: "Green delivery",
+    forPeopleAndPlanet: "For people and planet",
     readMore: "Read more"
 }
 const QuickFacts = () => {
