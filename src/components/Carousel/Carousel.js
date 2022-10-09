@@ -31,7 +31,7 @@ const Carousel = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-            <img src={image1} />
+            <img src={image1}/>
             <CarouselText/>
 </SwiperSlide>
         <SwiperSlide>
