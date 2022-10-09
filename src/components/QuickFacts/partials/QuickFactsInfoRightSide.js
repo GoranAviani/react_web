@@ -1,7 +1,7 @@
 import React from 'react'
 import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
-import BasicModal from "../../Modal/Modal";
+import BasicModal from "../../Modal/BasicModal";
 import OurWool from "../ExtraPages/OurWool";
 import Button from "@mui/material/Button";
 
