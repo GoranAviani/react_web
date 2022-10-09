@@ -15,7 +15,7 @@ const Carousel = () => {
       <Swiper
            style={{
           "--swiper-navigation-color": "#696969",
-          "--swiper-pagination-color": "#fff",
+          "--swiper-pagination-color": "#696969",
         }}
         spaceBetween={30}
         centeredSlides={true}
