@@ -1,5 +1,4 @@
 import React from "react";
-import Credits from "../Credits/Credits";
 import Link from "@mui/material/Link";
 
 
