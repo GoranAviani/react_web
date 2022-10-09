@@ -6,7 +6,6 @@ import QuickFactsInfoRightSide from "./partials/QuickFactsInfoRightSide";
 import QuickFactsInfoLeftSide from "./partials/QuickFactsInfoLeftSide";
 import OurWool from "./ExtraPages/OurWool";
 import Knitting from "./ExtraPages/Knitting";
-
 import GreenDelivery from "./ExtraPages/GreenDelivery";
 import PeopleAndPlanet from "./ExtraPages/PeopleAndPlanet";
 
