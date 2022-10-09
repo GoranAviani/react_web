@@ -2,8 +2,6 @@ import React from 'react'
 import './QuickFacts.css'
 import {sheep_64, knitting_64, shipped_64, planet_earth_64} from "../../static/icons/icons";
 import Spacer from "../Spacer";
-import Typography from "@mui/material/Typography";
-import Link from '@mui/material/Link';
 import QuickFactsInfoRightSide from "./partials/QuickFactsInfoRightSide";
 import QuickFactsInfoLeftSide from "./partials/QuickFactsInfoLeftSide";
 
