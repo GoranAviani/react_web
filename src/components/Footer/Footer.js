@@ -1,4 +1,5 @@
 import React from "react";
+import Credits from "../Credits/Credits";
 
 
 const Footer = () => {
@@ -6,7 +7,7 @@ const Footer = () => {
     return (
         <div>
             this is footer
-
+            <Credits/>
         </div>
     )
 }
