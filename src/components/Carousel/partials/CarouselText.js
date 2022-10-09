@@ -14,7 +14,7 @@ const TEXT = {
 const CarouselText = () => {
 
     return (
-        <div className="carousel-text" data-swiper-parallax="-100">
+        <div className="carousel-text">
             <Typography variant="h5">
                 {TEXT.handSewnOrganicWool}
             </Typography>
