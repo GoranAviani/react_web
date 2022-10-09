@@ -1,14 +1,41 @@
 .quickFacts {
     display: flex;
     justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+
 }
 
 .quickFactsInfo {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
 
+}
+
+.quickFactsInfoLeftSide {
+    margin-right: 20px;
+}
+
+.quickFactsInfoRightSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 600px) {
     .quickFacts {
         flex-direction: column;
     }
+
+    .quickFactsInfo {
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+
+    .quickFactsInfoLeftSide {
+        align-self: center;
+    }
+
 }

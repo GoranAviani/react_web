@@ -1,9 +1,19 @@
 .carousel-text {
     position: absolute;
     text-align: center;
+    width: 100%;
     left: 50%;
     top: 40%;
     transform: translate(-50%, -50%);
     color: black;
     font-weight: bold;
+}
+
+
+@media screen and (max-width: 600px) {
+    .carousel-text {
+        top: 45%;
+    }
+
+
 }

@@ -1,16 +1,17 @@
 import {useState, useEffect} from 'react';
 
 const getWindowDimensions = () => {
+    let windowSizes = {
+        isMobile: false,
+        isDesktop: false
+    }
     const {innerWidth: width, innerHeight: height} = window;
     if (width > 600) {
-        return 'desktop'
+        windowSizes.isDesktop = true
     } else {
-        return 'mobile'
+        windowSizes.isMobile = true
     }
-    // return {
-    // width,
-    //  height
-    // };
+    return windowSizes
 }
 
 const useWindowDimensions = () => {
@@ -25,7 +26,6 @@ const useWindowDimensions = () => {
         return () => window.removeEventListener('resize', handleResize);
     }, []);
 
-    console.log({windowDimensions})
     return windowDimensions;
 }
 

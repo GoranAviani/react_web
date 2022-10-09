@@ -3,6 +3,7 @@ import Typography from "@mui/material/Typography";
 import Button from '@mui/material/Button';
 import Spacer from "../../Spacer";
 import './CarouselText.css'
+import useWindowDimensions from "../../hooks/WindowDimension/useWindowDimensions";
 
 const TEXT = {
     handSewnOrganicWool: "Hand Knit With Organic Wool",
@@ -12,24 +13,21 @@ const TEXT = {
 }
 
 const CarouselText = () => {
-
+    const {isMobile} = useWindowDimensions()
     return (
-        <div className="carousel-text" data-swiper-parallax="-100">
-            <Typography variant="h5"
-                        component="div">
+        <div className="carousel-text">
+            <Typography variant={isMobile ? "h6" : "h5"}>
                 {TEXT.handSewnOrganicWool}
             </Typography>
-            <Spacer size={36}/>
+            <Spacer size={isMobile ? 55 : 35}/>
 
-            <Typography variant="h3"
-                        component="div">
+            <Typography variant={isMobile ? "h4" : "h3"}>
                 {TEXT.winterOffer}
             </Typography>
-            <Typography variant="h3"
-                        component="div">
+            <Typography variant={isMobile ? "h4" : "h3"}>
                 {TEXT.collectionTwoTwenty}
             </Typography>
-            <Spacer axis="vertical" size={80}/>
+            <Spacer axis="vertical" size={isMobile ? 70 : 80}/>
 
             <Button style={{
                 borderRadius: 0,

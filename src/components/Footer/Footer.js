@@ -1,13 +1,18 @@
 import React from "react";
-import Credits from "../Credits/Credits";
-
+import Link from "@mui/material/Link";
+import './Footer.css'
 
 const Footer = () => {
 
     return (
-        <div>
+        <div className="Footer">
             this is footer
-            <Credits/>
+            <Link color="#000"
+                  underline="none"
+                  href="/credits"
+            >
+                Credits
+            </Link>
         </div>
     )
 }
