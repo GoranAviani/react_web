@@ -15,18 +15,15 @@ const CarouselText = () => {
 
     return (
         <div className="carousel-text" data-swiper-parallax="-100">
-            <Typography variant="h5"
-                        component="div">
+            <Typography variant="h5">
                 {TEXT.handSewnOrganicWool}
             </Typography>
             <Spacer size={36}/>
 
-            <Typography variant="h3"
-                        component="div">
+            <Typography variant="h3">
                 {TEXT.winterOffer}
             </Typography>
-            <Typography variant="h3"
-                        component="div">
+            <Typography variant="h3">
                 {TEXT.collectionTwoTwenty}
             </Typography>
             <Spacer axis="vertical" size={80}/>
