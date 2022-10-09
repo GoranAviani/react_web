@@ -17,9 +17,15 @@
     margin-right: 20px;
 }
 
+.quickFactsInfoRightSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (max-width: 600px) {
     .quickFacts {
-
         flex-direction: column;
     }
 
@@ -30,5 +36,5 @@
     .quickFactsInfoLeftSide {
         align-self: center;
     }
-    
+
 }

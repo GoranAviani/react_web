@@ -23,7 +23,6 @@ const QuickFacts = () => {
                         <img src={sheep_64}/>
                     </div>
                     <div className="quickFactsInfoRightSide">
-
                         <Typography sx={{fontWeight: 'bold'}} variant="h6"
                                     component="div">
                             {TEXT.weUseOnlyOrganicWool}
