@@ -28,10 +28,10 @@ const QuickFacts = () => {
                             {TEXT.weUseOnlyOrganicWool}
                         </Typography>
 
-                        <Link
-                            onClick={() => {
-                                console.info("I'm a button.");
-                            }}
+                        <Link color="#000"
+                              onClick={() => {
+                                  console.info("I'm a button.");
+                              }}
                         >
                             {TEXT.readMore}
                         </Link>
