@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: row;
     align-self: center;
+
 }
 
 .quickFactsInfoLeftSide {
@@ -31,6 +32,7 @@
 
     .quickFactsInfo {
         flex-direction: column;
+        margin-bottom: 25px;
     }
 
     .quickFactsInfoLeftSide {
