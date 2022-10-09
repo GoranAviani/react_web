@@ -1,12 +1,11 @@
 import React from 'react'
-import {sheep_64} from "../../../static/icons/icons";
 
-const QuickFactsInfoLeftSide = () => {
+const QuickFactsInfoLeftSide = ({src}) => {
 
 
     return (
         <div className="quickFactsInfoLeftSide">
-            <img src={sheep_64}/>
+            <img src={src}/>
         </div>
     )
 
