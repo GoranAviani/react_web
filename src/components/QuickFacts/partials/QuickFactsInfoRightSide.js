@@ -7,8 +7,7 @@ const QuickFactsInfoRightSide = ({text, linkText, linkUrl}) => {
     return (
         <div className="quickFactsInfoRightSide">
 
-            <Typography sx={{fontWeight: 'bold'}} variant="h6"
-                        component="div">
+            <Typography sx={{fontWeight: 'bold'}} variant="h6">
                 {text}
             </Typography>
 
