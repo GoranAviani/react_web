@@ -4,11 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Index from "./components/Index/Index";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Credits from "./components/Credits/Credits";
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <Index />
-  </React.StrictMode>
+    <React.StrictMode>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Index/>}/>
+                <Route path="/credits" element={<Credits/>}/>
+            </Routes>
+        </BrowserRouter> </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
