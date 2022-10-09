@@ -3,7 +3,7 @@ import Typography from "@mui/material/Typography";
 import Button from '@mui/material/Button';
 import Spacer from "../../Spacer";
 const TEXT = {
-    handSewnOrganicWool: "Handsewn With Organic Wool",
+    handSewnOrganicWool: "Hand Knit With Organic Wool",
     winterOffer: "Winter offer",
     collectionTwoTwenty: "2022 Colletction",
     shopNow: "Shop Now"
