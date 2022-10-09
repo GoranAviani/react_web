@@ -13,8 +13,7 @@ const TEXT = {
 }
 
 const CarouselText = () => {
-    const a = useWindowDimensions()
-    console.log({a})
+    const {isMobile} = useWindowDimensions()
     return (
         <div className="carousel-text">
             <Typography variant="h5">
