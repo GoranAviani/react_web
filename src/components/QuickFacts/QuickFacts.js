@@ -17,18 +17,18 @@ const QuickFacts = () => {
     return (
         <>
             <Spacer axis="vertical" size={25}/>
-
             <div className="quickFacts">
-
                 <div className="quickFactsInfo">
                     <div className="quickFactsInfoLeftSide">
                         <img src={sheep_64}/>
                     </div>
                     <div className="quickFactsInfoRightSide">
+
                         <Typography sx={{fontWeight: 'bold'}} variant="h6"
                                     component="div">
                             {TEXT.weUseOnlyOrganicWool}
                         </Typography>
+
                         <Link
                             onClick={() => {
                                 console.info("I'm a button.");
