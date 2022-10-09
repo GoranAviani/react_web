@@ -4,7 +4,7 @@ const OurWool = () => {
 
     return (
         <>
-            our wool description
+            our wool description and story
         </>
     )
 }
