@@ -1,21 +1,23 @@
 import {useState, useEffect} from 'react';
 
 const getWindowDimensions = () => {
-    const [windowSizes, setWindowSizes] = useState({
+    let windowSizes = {
         mobile: false,
         desktop: false
-    })
+    }
     const {innerWidth: width, innerHeight: height} = window;
     if (width > 600) {
-        setWindowSizes(windowSizes['desktop'] = true)
+        windowSizes.desktop = true
     } else {
-        setWindowSizes(windowSizes['mobile'] = true)
+        windowSizes.mobile = true
     }
     return windowSizes
 }
 
 const useWindowDimensions = () => {
     const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
+
+    console.log({windowDimensions})
 
     useEffect(() => {
         function handleResize() {

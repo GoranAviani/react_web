@@ -3,6 +3,7 @@ import Typography from "@mui/material/Typography";
 import Button from '@mui/material/Button';
 import Spacer from "../../Spacer";
 import './CarouselText.css'
+import useWindowDimensions from "../../hooks/WindowDimension/useWindowDimensions";
 
 const TEXT = {
     handSewnOrganicWool: "Hand Knit With Organic Wool",
@@ -12,7 +13,8 @@ const TEXT = {
 }
 
 const CarouselText = () => {
-
+    const a = useWindowDimensions()
+    console.log({a})
     return (
         <div className="carousel-text">
             <Typography variant="h5">
