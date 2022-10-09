@@ -23,13 +23,10 @@ const QuickFacts = () => {
                     <div className="quickFactsInfoLeftSide">
                         <img src={sheep_64}/>
                     </div>
-                    <div className="quickFactsInfoRightSide">
-                        <QuickFactsInfoRightSide text={TEXT.weUseOnlyOrganicWool} linkText={TEXT.readMore}/>
-                    </div>
+                    <QuickFactsInfoRightSide text={TEXT.weUseOnlyOrganicWool} linkText={TEXT.readMore}/>
                 </div>
                 <div>
                     <img src={knitting_64}/>
-
                 </div>
                 <div>
                     <img src={shipped_64}/>

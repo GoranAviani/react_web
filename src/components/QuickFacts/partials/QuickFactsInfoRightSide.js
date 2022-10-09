@@ -5,7 +5,8 @@ import Link from "@mui/material/Link";
 const QuickFactsInfoRightSide = ({text, linkText}) => {
 
     return (
-        <>
+        <div className="quickFactsInfoRightSide">
+
             <Typography sx={{fontWeight: 'bold'}} variant="h6"
                         component="div">
                 {text}
@@ -17,7 +18,9 @@ const QuickFactsInfoRightSide = ({text, linkText}) => {
                   }}
             >
                 {linkText}
-            </Link></>
+            </Link>
+        </div>
+
     )
 }
 export default QuickFactsInfoRightSide
