@@ -2,14 +2,14 @@ import {useState, useEffect} from 'react';
 
 const getWindowDimensions = () => {
     let windowSizes = {
-        mobile: false,
-        desktop: false
+        isMobile: false,
+        isDesktop: false
     }
     const {innerWidth: width, innerHeight: height} = window;
     if (width > 600) {
-        windowSizes.desktop = true
+        windowSizes.isDesktop = true
     } else {
-        windowSizes.mobile = true
+        windowSizes.isMobile = true
     }
     return windowSizes
 }
