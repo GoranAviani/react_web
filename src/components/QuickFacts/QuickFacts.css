@@ -3,6 +3,10 @@
     justify-content: space-between;
 }
 
+.quickFactsInfo {
+
+}
+
 @media screen and (max-width: 600px) {
     .quickFacts {
         flex-direction: column;
