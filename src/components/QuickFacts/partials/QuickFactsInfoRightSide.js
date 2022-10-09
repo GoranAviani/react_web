@@ -2,7 +2,7 @@ import React from 'react'
 import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
 
-const QuickFactsInfoRightSide = ({text, linkText}) => {
+const QuickFactsInfoRightSide = ({text, linkText, linkUrl}) => {
 
     return (
         <div className="quickFactsInfoRightSide">
@@ -13,6 +13,7 @@ const QuickFactsInfoRightSide = ({text, linkText}) => {
             </Typography>
 
             <Link color="#000"
+                  href={linkUrl}
                   onClick={() => {
                       console.info("I'm a button.");
                   }}
