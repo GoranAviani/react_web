@@ -7,15 +7,15 @@ import Index from "./components/Index/Index";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Credits from "./components/Credits/Credits";
 import OurWool from "./components/QuickFacts/ExtraPages/OurWool";
-import {ourWoolUrl} from "./Route_urls";
+import {creditsUrl, indexUrl, ourWoolUrl} from "./Route_urls";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Index/>}/>
-                <Route path="/credits" element={<Credits/>}/>
+                <Route path={indexUrl} element={<Index/>}/>
+                <Route path={creditsUrl} element={<Credits/>}/>
                 <Route path={ourWoolUrl} element={OurWool}/>
             </Routes>
         </BrowserRouter> </React.StrictMode>
