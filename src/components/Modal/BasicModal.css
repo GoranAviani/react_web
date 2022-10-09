@@ -1,0 +1,23 @@
+.basicModalBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 80vh;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    background: #ffff;
+    border: 2px solid #000;
+}
+
+.ModelComponentSpace {
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .basicModalBox {
+        width: 90%;
+        height: 95vh;
+    }
+
+}
