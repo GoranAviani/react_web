@@ -5,6 +5,7 @@ import Spacer from "../Spacer";
 import Typography from "@mui/material/Typography";
 import Link from '@mui/material/Link';
 import QuickFactsInfoRightSide from "./partials/QuickFactsInfoRightSide";
+import QuickFactsInfoLeftSide from "./partials/QuickFactsInfoLeftSide";
 
 const TEXT = {
     weUseOnlyOrganicWool: "Ecologic organic wool",
@@ -20,9 +21,8 @@ const QuickFacts = () => {
             <Spacer axis="vertical" size={25}/>
             <div className="quickFacts">
                 <div className="quickFactsInfo">
-                    <div className="quickFactsInfoLeftSide">
-                        <img src={sheep_64}/>
-                    </div>
+                    <QuickFactsInfoLeftSide src={sheep_64}/>
+
                     <QuickFactsInfoRightSide text={TEXT.weUseOnlyOrganicWool} linkText={TEXT.readMore}/>
                 </div>
                 <div>
