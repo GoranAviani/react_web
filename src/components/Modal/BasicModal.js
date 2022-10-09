@@ -15,7 +15,9 @@ const BasicModal = ({open, handleClose, component}) => {
             aria-describedby="modal-modal-description"
         >
             <Box className='basicModalBox'>
-                {component}
+                <div className='ModelComponentSpace'>
+                    {component}
+                </div>
                 <Button
                     variant="contained"
                     color="primary"
