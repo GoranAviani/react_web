@@ -17,8 +17,6 @@ const getWindowDimensions = () => {
 const useWindowDimensions = () => {
     const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
 
-    console.log({windowDimensions})
-
     useEffect(() => {
         function handleResize() {
             setWindowDimensions(getWindowDimensions());
@@ -28,7 +26,6 @@ const useWindowDimensions = () => {
         return () => window.removeEventListener('resize', handleResize);
     }, []);
 
-    console.log({windowDimensions})
     return windowDimensions;
 }
 
