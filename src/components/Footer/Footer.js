@@ -12,6 +12,8 @@ const Footer = () => {
                 Flaticon</a>
             <a href="https://www.flaticon.com/free-icons/delivery" title="delivery icons">Delivery icons created by
                 Freepik - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/environment" title="environment icons">Environment icons
+                created by Freepik - Flaticon</a>
         </div>
     )
 }
