@@ -1,11 +1,13 @@
 import React from "react";
+import Credits from "../Credits/Credits";
 
 
 const Footer = () => {
 
-    return(
+    return (
         <div>
             this is footer
+            <Credits/>
         </div>
     )
 }
