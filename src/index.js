@@ -16,7 +16,7 @@ root.render(
             <Routes>
                 <Route path={indexUrl} element={<Index/>}/>
                 <Route path={creditsUrl} element={<Credits/>}/>
-                <Route path={ourWoolUrl} element={OurWool}/>
+                <Route path={ourWoolUrl} element={<OurWool/>}/>
             </Routes>
         </BrowserRouter> </React.StrictMode>
 );
