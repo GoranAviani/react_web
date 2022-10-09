@@ -1,13 +1,13 @@
 import React from 'react'
 import './QuickFacts.css'
-import {sheep_64, wool_64, shipped_64, planet_earth_64} from "../../static/icons/icons";
+import {sheep_color_64, wool_64, shipped_64, planet_earth_64} from "../../static/icons/icons";
 
 const QuickFacts = () => {
 
     return (
         <div className="quickFacts">
             <div className="quickFactsInfo">
-                <img src={sheep_64}/>
+                <img src={sheep_color_64}/>
             </div>
             <div>
                 <img src={wool_64}/>
