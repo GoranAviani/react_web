@@ -25,7 +25,6 @@ const QuickFacts = () => {
                     </div>
                     <div className="quickFactsInfoRightSide">
                         <QuickFactsInfoRightSide text={TEXT.weUseOnlyOrganicWool} linkText={TEXT.readMore}/>
-
                     </div>
                 </div>
                 <div>
