@@ -1,27 +1,36 @@
 import React from 'react'
 import './QuickFacts.css'
 import {sheep_64, knitting_64, shipped_64, planet_earth_64} from "../../static/icons/icons";
+import Spacer from "../Spacer";
 
 const QuickFacts = () => {
 
     return (
-        <div className="quickFacts">
-            <div className="quickFactsInfo">
-                <img src={sheep_64}/>
-            </div>
-            <div>
-                <img src={knitting_64}/>
+        <>
+            <Spacer axis="vertical" size={25}/>
+
+            <div className="quickFacts">
+
+                <div className="quickFactsInfo">
+                    <img src={sheep_64}/>
+
+                </div>
+                <div>
+                    <img src={knitting_64}/>
+
+                </div>
+                <div>
+                    <img src={shipped_64}/>
+                </div>
+                <div>
+                    <img src={planet_earth_64}/>
+                </div>
+
 
             </div>
-            <div>
-                <img src={shipped_64}/>
-            </div>
-            <div>
-                <img src={planet_earth_64}/>
-            </div>
 
+        </>
 
-        </div>
     )
 }
 

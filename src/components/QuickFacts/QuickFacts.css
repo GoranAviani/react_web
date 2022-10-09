@@ -1,10 +1,11 @@
 .quickFacts {
     display: flex;
     justify-content: space-between;
+    height: 15vh;
+
 }
 
 .quickFactsInfo {
-
 }
 
 @media screen and (max-width: 600px) {
