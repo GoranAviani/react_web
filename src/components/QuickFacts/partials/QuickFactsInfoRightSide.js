@@ -8,7 +8,11 @@ import Button from "@mui/material/Button";
 const QuickFactsInfoRightSide = ({text, linkText, linkUrl}) => {
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
-    const handleClose = () => setOpen(false);
+    const handleClose = (event, reason) => {
+        if (reason && reason == "backdropClick")
+            return;
+        setOpen(false);
+    }
 
     return (
         <div className="quickFactsInfoRightSide">
