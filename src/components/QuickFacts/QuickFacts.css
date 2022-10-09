@@ -1,7 +1,6 @@
 .quickFacts {
     display: flex;
     justify-content: space-between;
-    height: 15vh;
     margin-left: 20px;
     margin-right: 20px;
 
