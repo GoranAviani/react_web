@@ -5,7 +5,7 @@ import BasicModal from "../../Modal/BasicModal";
 import OurWool from "../ExtraPages/OurWool";
 import Button from "@mui/material/Button";
 
-const QuickFactsInfoRightSide = ({text, linkText, linkUrl}) => {
+const QuickFactsInfoRightSide = ({text, linkText, component}) => {
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = (event, reason) => {
@@ -29,7 +29,7 @@ const QuickFactsInfoRightSide = ({text, linkText, linkUrl}) => {
             >
                 {linkText}
             </Link>
-            <BasicModal open={open} handleClose={handleClose}/>
+            <BasicModal open={open} handleClose={handleClose} component={component}/>
         </div>
 
     )

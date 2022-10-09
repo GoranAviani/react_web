@@ -5,6 +5,7 @@ import Spacer from "../Spacer";
 import QuickFactsInfoRightSide from "./partials/QuickFactsInfoRightSide";
 import QuickFactsInfoLeftSide from "./partials/QuickFactsInfoLeftSide";
 import {ourWoolUrl, knittingUrl, greenDeliveryUrl, peopleAndPlanetUrl} from "../../Route_urls";
+import OurWool from "./ExtraPages/OurWool";
 
 const TEXT = {
     weUseOnlyOrganicWool: "Ecologic organic wool",
@@ -22,7 +23,7 @@ const QuickFacts = () => {
                 <div className="quickFactsInfo">
                     <QuickFactsInfoLeftSide src={sheep_64}/>
                     <QuickFactsInfoRightSide text={TEXT.weUseOnlyOrganicWool} linkText={TEXT.readMore}
-                                             linkUrl={ourWoolUrl}/>
+                                             component={<OurWool/>}/>
                 </div>
                 <div className="quickFactsInfo">
                     <QuickFactsInfoLeftSide src={knitting_64}/>
