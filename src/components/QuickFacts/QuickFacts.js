@@ -4,7 +4,6 @@ import {sheep_64, knitting_64, shipped_64, planet_earth_64} from "../../static/i
 import Spacer from "../Spacer";
 import QuickFactsInfoRightSide from "./partials/QuickFactsInfoRightSide";
 import QuickFactsInfoLeftSide from "./partials/QuickFactsInfoLeftSide";
-import {ourWoolUrl, knittingUrl, greenDeliveryUrl, peopleAndPlanetUrl} from "../../Route_urls";
 import OurWool from "./ExtraPages/OurWool";
 import Knitting from "./ExtraPages/Knitting";
 
