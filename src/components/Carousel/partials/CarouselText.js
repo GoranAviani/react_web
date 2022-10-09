@@ -16,18 +16,18 @@ const CarouselText = () => {
     const {isMobile} = useWindowDimensions()
     return (
         <div className="carousel-text">
-            <Typography variant="h5">
+            <Typography variant={isMobile ? "h6" : "h5"}>
                 {TEXT.handSewnOrganicWool}
             </Typography>
-            <Spacer size={36}/>
+            <Spacer size={isMobile ? 55 : 35}/>
 
-            <Typography variant="h3">
+            <Typography variant={isMobile ? "h4" : "h3"}>
                 {TEXT.winterOffer}
             </Typography>
-            <Typography variant="h3">
+            <Typography variant={isMobile ? "h4" : "h3"}>
                 {TEXT.collectionTwoTwenty}
             </Typography>
-            <Spacer axis="vertical" size={80}/>
+            <Spacer axis="vertical" size={isMobile ? 70 : 80}/>
 
             <Button style={{
                 borderRadius: 0,
