@@ -23,13 +23,18 @@ const QuickFacts = () => {
                     <QuickFactsInfoRightSide text={TEXT.weUseOnlyOrganicWool} linkText={TEXT.readMore}/>
                 </div>
                 <div>
-                    <img src={knitting_64}/>
+                    <QuickFactsInfoLeftSide src={knitting_64}/>
+                    <QuickFactsInfoRightSide text={TEXT.allOurProductsAreHandKnitted} linkText={TEXT.readMore}/>
+
                 </div>
                 <div>
-                    <img src={shipped_64}/>
+                    <QuickFactsInfoLeftSide src={shipped_64}/>
+                    <QuickFactsInfoRightSide text={TEXT.greenDelivery} linkText={TEXT.readMore}/>
+
                 </div>
                 <div>
-                    <img src={planet_earth_64}/>
+                    <QuickFactsInfoLeftSide src={planet_earth_64}/>
+                    <QuickFactsInfoRightSide text={TEXT.greenDelivery} linkText={TEXT.readMore}/>
                 </div>
 
 
