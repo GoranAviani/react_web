@@ -5,7 +5,6 @@ import Spacer from "../Spacer";
 import QuickFactsInfoRightSide from "./partials/QuickFactsInfoRightSide";
 import QuickFactsInfoLeftSide from "./partials/QuickFactsInfoLeftSide";
 import {ourWoolUrl, knittingUrl, greenDeliveryUrl, peopleAndPlanetUrl} from "../../Route_urls";
-import Modal from '@mui/material/Modal';
 
 const TEXT = {
     weUseOnlyOrganicWool: "Ecologic organic wool",
