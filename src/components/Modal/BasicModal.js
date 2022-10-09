@@ -3,19 +3,7 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
-
-const style = {
-    position: 'absolute',
-    top: '50%',
-    left: '50%',
-    height: '80vh',
-    transform: 'translate(-50%, -50%)',
-    width: '70%',
-    bgcolor: 'background.paper',
-    border: '2px solid #000',
-    boxShadow: 24,
-    p: 4,
-};
+import './BasicModal.css'
 
 const BasicModal = ({open, handleClose, component}) => {
 
@@ -27,7 +15,7 @@ const BasicModal = ({open, handleClose, component}) => {
             aria-labelledby="modal-modal-title"
             aria-describedby="modal-modal-description"
         >
-            <Box sx={style}>
+            <Box sx={basicModalBox}>
                 {component}
                 <Button
                     variant="contained"
