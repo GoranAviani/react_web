@@ -9,6 +9,7 @@ const Footer = () => {
         <div>
             this is footer
             <Link color="#000"
+                  underline="none"
                   href="/credits"
             >
                 Credits
