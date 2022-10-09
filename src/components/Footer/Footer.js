@@ -1,5 +1,6 @@
 import React from "react";
 import Credits from "../Credits/Credits";
+import Link from "@mui/material/Link";
 
 
 const Footer = () => {
@@ -7,7 +8,11 @@ const Footer = () => {
     return (
         <div>
             this is footer
-            <Credits/>
+            <Link color="#000"
+                  href="/credits"
+            >
+                Credits
+            </Link>
         </div>
     )
 }
