@@ -14,9 +14,6 @@ const QuickFactsInfoRightSide = ({text, linkText, linkUrl}) => {
 
             <Link color="#000"
                   href={linkUrl}
-                  onClick={() => {
-                      console.info("I'm a button.");
-                  }}
             >
                 {linkText}
             </Link>
