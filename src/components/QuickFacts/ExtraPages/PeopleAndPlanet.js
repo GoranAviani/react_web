@@ -4,7 +4,7 @@ const PeopleAndPlanet = () => {
 
     return (
         <>
-            our wool description and story
+            our PeopleAndPlanet description and story
         </>
     )
 }
