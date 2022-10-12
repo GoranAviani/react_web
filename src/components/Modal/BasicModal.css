@@ -4,17 +4,17 @@
     left: 50%;
     height: 75vh;
     transform: translate(-50%, -50%);
-    width: 70%;
+    width: 85%;
     background: #ffff;
     border: 2px solid #000;
-    padding: 12px;
+    padding: 20px;
 }
 
 .basicModalBox .ModalXCloseButton {
     height: 8%;
     display: flex;
     justify-content: end;
-    
+
 }
 
 .basicModalBox .ModalComponentSpace {
@@ -30,8 +30,8 @@
 
 @media screen and (max-width: 600px) {
     .basicModalBox {
-        width: 90%;
-        height: 90vh;
+        width: 85%;
+        height: 80vh;
     }
 
 }
