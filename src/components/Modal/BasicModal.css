@@ -17,6 +17,11 @@
 
 }
 
+.basicModalBox .ModalComponentImage {
+    display: flex;
+    justify-content: center;
+}
+
 .basicModalBox .ModalComponentSpace {
     height: 82%;
     display: flex;
