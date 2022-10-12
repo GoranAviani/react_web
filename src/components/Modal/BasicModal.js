@@ -4,7 +4,7 @@ import Button from '@mui/material/Button';
 import Modal from '@mui/material/Modal';
 import './BasicModal.css'
 
-const BasicModal = ({open, handleClose, component}) => {
+const BasicModal = ({open, handleClose, component, showXClose = false}) => {
 
 
     return (
@@ -15,17 +15,43 @@ const BasicModal = ({open, handleClose, component}) => {
             aria-describedby="modal-modal-description"
         >
             <Box className='basicModalBox'>
-                <div className='ModelComponentSpace'>
+                <div className='ModalXCloseButton'>
+                    {showXClose && <Button
+                        sx={{
+                            borderRadius: 0,
+                            color: "#000",
+                            borderColor: "#000",
+                            height: "30px",
+                            minWidth: "30px",
+                            width: "30px",
+                            fontSize: "20px"
+                        }}
+                        variant="outlined"
+
+                        onClick={() => {
+                            handleClose()
+                        }}
+                    >X
+                    </Button>}
+                </div>
+                <div className='ModalComponentSpace'>
                     {component}
                 </div>
-                <Button
-                    variant="contained"
-                    color="primary"
-                    onClick={() => {
-                        handleClose()
-                    }}
-                >Close
-                </Button>
+                <div className='ModalComponentButtons'>
+                    <Button
+                        style={{
+                            borderRadius: 0,
+                            color: "#000",
+                            borderColor: "#000",
+                            padding: "15px 30px",
+                            fontSize: "18px"
+                        }} variant="outlined"
+                        onClick={() => {
+                            handleClose()
+                        }}
+                    >Close
+                    </Button>
+                </div>
             </Box>
         </Modal>
     );
