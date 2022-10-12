@@ -7,7 +7,7 @@ import {
     sheep_color_128,
     knitting_64,
     shipped_64,
-    planet_earth_64
+    planet_earth_64, planet_earth_color_64, knitting_color_64
 } from "../../static/icons/icons";
 import Spacer from "../Spacer";
 import QuickFactsInfoRightSide from "./partials/QuickFactsInfoRightSide";
@@ -25,11 +25,7 @@ const TEXT = {
     readMore: "Read more"
 }
 const QuickFacts = () => {
-    const imageSrc1 = {"small": sheep_color_64, "big": sheep_color_128}
-    const imageSrc = {"small": sheep_color_64, "big": sheep_color_128}
 
-    console.log({imageSrc})
-    const superHeroObj = {'name': 'Ironman', 'weapon': 'Suit'}
     return (
         <>
             <Spacer axis="vertical" size={25}/>
@@ -37,25 +33,29 @@ const QuickFacts = () => {
                 <div className="quickFactsInfo">
                     <QuickFactsInfoLeftSide src={sheep_64}/>
                     <QuickFactsInfoRightSide text={TEXT.weUseOnlyOrganicWool} linkText={TEXT.readMore}
-                                             imageSrc={imageSrc1} component={<OurWool/>}
+                                             imageSrc={{"small": sheep_color_64, "big": sheep_color_128}}
+                                             component={<OurWool/>}
                     />
                 </div>
                 <div className="quickFactsInfo">
                     <QuickFactsInfoLeftSide src={knitting_64}/>
                     <QuickFactsInfoRightSide text={TEXT.allOurProductsAreHandKnitted} linkText={TEXT.readMore}
-                                             imageSrc={imageSrc} component={<Knitting/>}/>
+                                             imageSrc={{"small": knitting_color_64, "big": sheep_color_128}}
+                                             component={<Knitting/>}/>
 
                 </div>
                 <div className="quickFactsInfo">
                     <QuickFactsInfoLeftSide src={shipped_64}/>
                     <QuickFactsInfoRightSide text={TEXT.greenDelivery} linkText={TEXT.readMore}
-                                             imageSrc={imageSrc} component={<GreenDelivery/>}/>
+                                             imageSrc={{"small": sheep_color_64, "big": sheep_color_128}}
+                                             component={<GreenDelivery/>}/>
 
                 </div>
                 <div className="quickFactsInfo">
                     <QuickFactsInfoLeftSide src={planet_earth_64}/>
                     <QuickFactsInfoRightSide text={TEXT.forPeopleAndPlanet} linkText={TEXT.readMore}
-                                             imageSrc={imageSrc} component={<PeopleAndPlanet/>}/>
+                                             imageSrc={{"small": planet_earth_color_64, "big": sheep_color_128}}
+                                             component={<PeopleAndPlanet/>}/>
                 </div>
 
 
