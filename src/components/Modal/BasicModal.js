@@ -17,7 +17,7 @@ const BasicModal = ({open, handleClose, component}) => {
             <Box className='basicModalBox'>
                 <div className='ModalXCloseButton'>
                     <Button
-                        variant="contained"
+                        variant="outlined"
                         color="primary"
                         onClick={() => {
                             handleClose()
@@ -30,8 +30,13 @@ const BasicModal = ({open, handleClose, component}) => {
                 </div>
                 <div className='ModalComponentButtons'>
                     <Button
-                        variant="contained"
-                        color="primary"
+                        style={{
+                            borderRadius: 0,
+                            color: "#000",
+                            borderColor: "#000",
+                            padding: "15px 30px",
+                            fontSize: "18px"
+                        }} variant="outlined"
                         onClick={() => {
                             handleClose()
                         }}

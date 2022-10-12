@@ -33,7 +33,7 @@ const CarouselText = () => {
                 borderRadius: 0,
                 color: "#000",
                 borderColor: "#000",
-                padding: "18px 36px",
+                padding: "15px 36px",
                 fontSize: "18px"
             }} variant="outlined">{TEXT.shopNow}</Button>
         </div>
