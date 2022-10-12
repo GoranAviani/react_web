@@ -18,8 +18,9 @@
 }
 
 .basicModalBox .ModalComponentSpace {
-    height: 83%;
+    height: 82%;
     display: flex;
+    overflow: scroll;
 
 }
 
