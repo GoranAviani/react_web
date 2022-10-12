@@ -17,8 +17,16 @@ const BasicModal = ({open, handleClose, component}) => {
             <Box className='basicModalBox'>
                 <div className='ModalXCloseButton'>
                     <Button
+                        style={{
+                            borderRadius: 0,
+                            color: "#000",
+                            borderColor: "#000",
+                            height: "40px",
+                            width: "20px",
+                            fontSize: "20px"
+                        }}
                         variant="outlined"
-                        color="primary"
+
                         onClick={() => {
                             handleClose()
                         }}
