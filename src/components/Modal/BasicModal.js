@@ -18,14 +18,16 @@ const BasicModal = ({open, handleClose, component}) => {
                 <div className='ModelComponentSpace'>
                     {component}
                 </div>
-                <Button
-                    variant="contained"
-                    color="primary"
-                    onClick={() => {
-                        handleClose()
-                    }}
-                >Close
-                </Button>
+                <div className='ModelComponentButtons'>
+                    <Button
+                        variant="contained"
+                        color="primary"
+                        onClick={() => {
+                            handleClose()
+                        }}
+                    >Close
+                    </Button>
+                </div>
             </Box>
         </Modal>
     );
