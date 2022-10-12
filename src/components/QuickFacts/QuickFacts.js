@@ -34,7 +34,7 @@ const QuickFacts = () => {
                     <QuickFactsInfoLeftSide src={sheep_64}/>
                     <QuickFactsInfoRightSide text={TEXT.weUseOnlyOrganicWool} linkText={TEXT.readMore}
                                              component={<OurWool/>}
-                                             imagesSrc={{small: sheep_color_64, big: sheep_color_128}}/>
+                                             imageSrc={{small: sheep_color_64, big: sheep_color_128}}/>
                 </div>
                 <div className="quickFactsInfo">
                     <QuickFactsInfoLeftSide src={knitting_64}/>

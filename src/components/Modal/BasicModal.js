@@ -6,10 +6,8 @@ import './BasicModal.css'
 import useWindowDimensions from "../hooks/WindowDimension/useWindowDimensions";
 import {useState} from "react";
 
-const BasicModal = ({open, handleClose, component, imagesCrs = null, showXClose = false}) => {
+const BasicModal = ({open, handleClose, component, imageSrc = null, showXClose = false}) => {
     const {isMobile} = useWindowDimensions()
-    const [src, setSrc] = useState()
-    setSrc(isMobile ? imagesCrs.small : imagesCrs.big)
 
     return (
         <Modal
@@ -38,9 +36,11 @@ const BasicModal = ({open, handleClose, component, imagesCrs = null, showXClose 
                     >X
                     </Button>}
                 </div>
-                <div className="ModalComponentImage">
-                    {src && <img src={src}/>}
-                </div>
+                {imageSrc &&
+                    <div className="ModalComponentImage">
+                        <img src={isMobile ? imageSrc.small : imageSrc.big}/>
+                    </div>
+                }
                 <div className='ModalComponentSpace'>
                     {component}
                 </div>
