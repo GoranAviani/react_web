@@ -43,7 +43,7 @@ const BasicModal = ({open, handleClose, component, imageSrc = null, showXClose =
                         <img src={isMobile ? imageSrc.small : imageSrc.big}/>
                     </div>
                 }
-                <div className='ModalComponentSpace'>
+                <div className={imageSrc ? 'ModalComponentSmallerSpace' : 'ModalComponentSpace'}>
                     {component}
                 </div>
                 <div className='ModalComponentButtons'>

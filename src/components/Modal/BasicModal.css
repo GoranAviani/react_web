@@ -21,7 +21,12 @@
     height: 82%;
     display: flex;
     overflow: scroll;
+}
 
+.basicModalBox .ModalComponentSmallerSpace {
+    height: 60%;
+    display: flex;
+    overflow: scroll;
 }
 
 .basicModalBox .ModalComponentButtons {
