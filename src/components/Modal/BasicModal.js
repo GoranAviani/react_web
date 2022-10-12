@@ -15,10 +15,20 @@ const BasicModal = ({open, handleClose, component}) => {
             aria-describedby="modal-modal-description"
         >
             <Box className='basicModalBox'>
-                <div className='ModelComponentSpace'>
+                <div className='ModalXCloseButton'>
+                    <Button
+                        variant="contained"
+                        color="primary"
+                        onClick={() => {
+                            handleClose()
+                        }}
+                    >X
+                    </Button>
+                </div>
+                <div className='ModalComponentSpace'>
                     {component}
                 </div>
-                <div className='ModelComponentButtons'>
+                <div className='ModalComponentButtons'>
                     <Button
                         variant="contained"
                         color="primary"
