@@ -9,10 +9,24 @@
     border: 2px solid #000;
 }
 
-.ModelComponentSpace {
-
+.basicModalBox .ModalXCloseButton {
+    height: 10%;
+    display: flex;
+    justify-content: end;
 }
 
+.basicModalBox .ModalComponentSpace {
+    height: 80%;
+    width: 90%;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.basicModalBox .ModalComponentButtons {
+    display: flex;
+    justify-content: center;
+}
 
 @media screen and (max-width: 600px) {
     .basicModalBox {
