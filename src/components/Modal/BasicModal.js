@@ -3,9 +3,13 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Modal from '@mui/material/Modal';
 import './BasicModal.css'
+import useWindowDimensions from "../hooks/WindowDimension/useWindowDimensions";
+import {useState} from "react";
 
 const BasicModal = ({open, handleClose, component, imagesCrs = null, showXClose = false}) => {
-
+    const {isMobile} = useWindowDimensions()
+    const [src, setSrc] = useState()
+    setSrc(isMobile ? imagesCrs.small : imagesCrs.big)
 
     return (
         <Modal
@@ -35,7 +39,7 @@ const BasicModal = ({open, handleClose, component, imagesCrs = null, showXClose 
                     </Button>}
                 </div>
                 <div className="ModalComponentImage">
-                    {imagesCrs && <img src={image1}/>}
+                    {src && <img src={src}/>}
                 </div>
                 <div className='ModalComponentSpace'>
                     {component}
