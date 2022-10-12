@@ -1,7 +1,14 @@
 import React from 'react'
 
 import './QuickFacts.css'
-import {sheep_64, knitting_64, shipped_64, planet_earth_64} from "../../static/icons/icons";
+import {
+    sheep_64,
+    sheep_color_64,
+    sheep_color_128,
+    knitting_64,
+    shipped_64,
+    planet_earth_64
+} from "../../static/icons/icons";
 import Spacer from "../Spacer";
 import QuickFactsInfoRightSide from "./partials/QuickFactsInfoRightSide";
 import QuickFactsInfoLeftSide from "./partials/QuickFactsInfoLeftSide";
@@ -26,7 +33,8 @@ const QuickFacts = () => {
                 <div className="quickFactsInfo">
                     <QuickFactsInfoLeftSide src={sheep_64}/>
                     <QuickFactsInfoRightSide text={TEXT.weUseOnlyOrganicWool} linkText={TEXT.readMore}
-                                             component={<OurWool/>}/>
+                                             component={<OurWool/>}
+                                             imagesSrc={{small: sheep_color_64, big: sheep_color_128}}/>
                 </div>
                 <div className="quickFactsInfo">
                     <QuickFactsInfoLeftSide src={knitting_64}/>

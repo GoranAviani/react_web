@@ -3,7 +3,6 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Modal from '@mui/material/Modal';
 import './BasicModal.css'
-import {sheep_color_128, sheep_color_64} from "../../static/icons/icons";
 
 const BasicModal = ({open, handleClose, component, imagesCrs = null, showXClose = false}) => {
 
@@ -36,8 +35,7 @@ const BasicModal = ({open, handleClose, component, imagesCrs = null, showXClose 
                     </Button>}
                 </div>
                 <div className="ModalComponentImage">
-                                        <img src={image1}/>
-
+                    {imagesCrs && <img src={image1}/>}
                 </div>
                 <div className='ModalComponentSpace'>
                     {component}
