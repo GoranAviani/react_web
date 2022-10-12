@@ -4,7 +4,7 @@ import Button from '@mui/material/Button';
 import Modal from '@mui/material/Modal';
 import './BasicModal.css'
 
-const BasicModal = ({open, handleClose, component}) => {
+const BasicModal = ({open, handleClose, component, showXClose = false}) => {
 
 
     return (
@@ -16,7 +16,7 @@ const BasicModal = ({open, handleClose, component}) => {
         >
             <Box className='basicModalBox'>
                 <div className='ModalXCloseButton'>
-                    <Button
+                    {showXClose && <Button
                         sx={{
                             borderRadius: 0,
                             color: "#000",
@@ -32,7 +32,7 @@ const BasicModal = ({open, handleClose, component}) => {
                             handleClose()
                         }}
                     >X
-                    </Button>
+                    </Button>}
                 </div>
                 <div className='ModalComponentSpace'>
                     {component}

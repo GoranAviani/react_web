@@ -29,7 +29,7 @@ const QuickFactsInfoRightSide = ({text, linkText, component}) => {
             >
                 {linkText}
             </Link>
-            <BasicModal open={open} handleClose={handleClose} component={component}/>
+            <BasicModal open={open} handleClose={handleClose} showXClose={true} component={component}/>
         </div>
 
     )
