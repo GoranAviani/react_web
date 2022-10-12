@@ -8,6 +8,8 @@ import {useState} from "react";
 
 const BasicModal = ({open, handleClose, component, imageSrc = null, showXClose = false}) => {
     const {isMobile} = useWindowDimensions()
+    console.log({isMobile})
+    console.log({imageSrc})
 
     return (
         <Modal
