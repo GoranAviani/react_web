@@ -44,9 +44,12 @@ const BasicModal = ({open, handleClose, title, component, imageSrc = null, showX
                         <img src={isMobile ? imageSrc.small : imageSrc.big}/>
                     </div>
                 }
-                {title && <Typography variant={isMobile ? "h6" : "h5"}>
-                    {title}
-                </Typography>}
+                {title &&
+                    <div className="ModalComponentTitle">
+                        <Typography variant={isMobile ? "h5" : "h4"}>
+                            {title}
+                        </Typography>
+                    </div>}
                 <div className={imageSrc ? 'ModalComponentSmallerSpace' : 'ModalComponentSpace'}>
                     {component}
                 </div>

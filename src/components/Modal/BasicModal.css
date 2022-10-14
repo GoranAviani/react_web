@@ -23,6 +23,12 @@
     padding-bottom: 15px;
 }
 
+.basicModalBox .ModalComponentTitle {
+    display: flex;
+    justify-content: center;
+    height: 8%
+}
+
 .basicModalBox .ModalComponentSpace {
     height: 82%;
     display: flex;
