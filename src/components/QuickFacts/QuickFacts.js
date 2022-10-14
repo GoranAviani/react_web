@@ -47,21 +47,21 @@ const QuickFacts = () => {
                     <QuickFactsInfoLeftSide src={knitting_64}/>
                     <QuickFactsInfoRightSide text={TEXT.allOurProductsAreHandKnitted} linkText={TEXT.readMore}
                                              imageSrc={{"small": knitting_color_64, "big": knitting_color_128}}
-                                             title={TEXT.weUseOnlyOrganicWool} component={<Knitting/>}/>
+                                             title={TEXT.allOurProductsAreHandKnitted} component={<Knitting/>}/>
 
                 </div>
                 <div className="quickFactsInfo">
                     <QuickFactsInfoLeftSide src={shipped_64}/>
                     <QuickFactsInfoRightSide text={TEXT.greenDelivery} linkText={TEXT.readMore}
                                              imageSrc={{"small": shipped_color_64, "big": shipped_color_128}}
-                                             title={TEXT.weUseOnlyOrganicWool} component={<GreenDelivery/>}/>
+                                             title={TEXT.greenDelivery} component={<GreenDelivery/>}/>
 
                 </div>
                 <div className="quickFactsInfo">
                     <QuickFactsInfoLeftSide src={planet_earth_64}/>
                     <QuickFactsInfoRightSide text={TEXT.forPeopleAndPlanet} linkText={TEXT.readMore}
                                              imageSrc={{"small": planet_earth_color_64, "big": planet_earth_color_128}}
-                                             title={TEXT.weUseOnlyOrganicWool} component={<PeopleAndPlanet/>}/>
+                                             title={TEXT.forPeopleAndPlanet} component={<PeopleAndPlanet/>}/>
                 </div>
 
 

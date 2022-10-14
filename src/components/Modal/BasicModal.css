@@ -46,7 +46,6 @@
 .basicModalBox .ModalComponentButtons {
     display: flex;
     justify-content: center;
-    padding-top: 15px;
 }
 
 @media screen and (max-width: 600px) {
