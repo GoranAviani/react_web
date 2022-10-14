@@ -20,7 +20,6 @@
 .basicModalBox .ModalComponentImage {
     display: flex;
     justify-content: center;
-    padding-bottom: 15px;
 }
 
 .basicModalBox .ModalComponentTitle {
