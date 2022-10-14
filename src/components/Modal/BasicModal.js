@@ -5,8 +5,10 @@ import Modal from '@mui/material/Modal';
 import './BasicModal.css'
 import useWindowDimensions from "../hooks/WindowDimension/useWindowDimensions";
 import {useState} from "react";
+import Typography from "@mui/material/Typography";
+import Spacer from "../Spacer";
 
-const BasicModal = ({open, handleClose, component, imageSrc = null, showXClose = false}) => {
+const BasicModal = ({open, handleClose, title, component, imageSrc = null, showXClose = false}) => {
     const {isMobile} = useWindowDimensions()
     console.log({isMobile})
     console.log({imageSrc})
@@ -43,6 +45,16 @@ const BasicModal = ({open, handleClose, component, imageSrc = null, showXClose =
                         <img src={isMobile ? imageSrc.small : imageSrc.big}/>
                     </div>
                 }
+
+                {title &&
+                    <div className="ModalComponentTitle">
+                        <Typography variant={isMobile ? "h5" : "h4"}>
+                            {title}
+                        </Typography>
+
+                    </div>}
+                <Spacer size={isMobile ? 10 : 20}/>
+
                 <div className={imageSrc ? 'ModalComponentSmallerSpace' : 'ModalComponentSpace'}>
                     {component}
                 </div>

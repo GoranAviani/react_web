@@ -2,7 +2,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    height: 80vh;
+    height: 85vh;
     transform: translate(-50%, -50%);
     width: 85%;
     background: #ffff;
@@ -11,7 +11,7 @@
 }
 
 .basicModalBox .ModalXCloseButton {
-    height: 8%;
+    height: 5%;
     display: flex;
     justify-content: end;
 
@@ -21,6 +21,12 @@
     display: flex;
     justify-content: center;
     padding-bottom: 15px;
+}
+
+.basicModalBox .ModalComponentTitle {
+    display: flex;
+    justify-content: center;
+    height: 6%
 }
 
 .basicModalBox .ModalComponentSpace {
@@ -33,6 +39,8 @@
     height: 58%;
     display: flex;
     overflow: scroll;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .basicModalBox .ModalComponentButtons {
@@ -48,7 +56,9 @@
     }
 
     .basicModalBox .ModalComponentSmallerSpace {
-        height: 68%;
+        height: 65%;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
 }
