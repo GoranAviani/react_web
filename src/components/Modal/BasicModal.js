@@ -58,7 +58,10 @@ const BasicModal = ({open, handleClose, title, component, imageSrc = null, showX
                 <div className={imageSrc ? 'ModalComponentSmallerSpace' : 'ModalComponentSpace'}>
                     {component}
                 </div>
+                {title ? <Spacer size={15}/> : <Spacer size={isMobile ? 30 : 35}/>}
+
                 <div className='ModalComponentButtons'>
+
                     <Button
                         style={{
                             borderRadius: 0,
