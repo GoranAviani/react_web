@@ -5,8 +5,9 @@ import Modal from '@mui/material/Modal';
 import './BasicModal.css'
 import useWindowDimensions from "../hooks/WindowDimension/useWindowDimensions";
 import {useState} from "react";
+import Typography from "@mui/material/Typography";
 
-const BasicModal = ({open, handleClose, component, imageSrc = null, showXClose = false}) => {
+const BasicModal = ({open, handleClose, title, component, imageSrc = null, showXClose = false}) => {
     const {isMobile} = useWindowDimensions()
     console.log({isMobile})
     console.log({imageSrc})
@@ -43,6 +44,9 @@ const BasicModal = ({open, handleClose, component, imageSrc = null, showXClose =
                         <img src={isMobile ? imageSrc.small : imageSrc.big}/>
                     </div>
                 }
+                {title && <Typography variant={isMobile ? "h6" : "h5"}>
+                    {title}
+                </Typography>}
                 <div className={imageSrc ? 'ModalComponentSmallerSpace' : 'ModalComponentSpace'}>
                     {component}
                 </div>
