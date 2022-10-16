@@ -7,7 +7,12 @@ export const peopleAndPlanetUrl = "/people_and_planet";
 export const allProductsUrl = "/all_products";
 
 
-export const aboutCompanyFooterLinks = [creditsUrl, creditsUrl, creditsUrl, creditsUrl]
+export const aboutCompanyFooterLinks = {
+    'Credits': creditsUrl,
+    'Credits one': creditsUrl,
+    'Test credits two': creditsUrl,
+    'Credits2': creditsUrl
+}
 
 
 
