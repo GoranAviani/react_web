@@ -38,7 +38,6 @@ const Footer = () => {
                 </div>
                 <div>
                     <div className='Header'>
-
                         <Typography variant='h6'>
                             your benefits
                         </Typography>
@@ -63,11 +62,9 @@ const Footer = () => {
                             Credits
                         </Link>
                     </div>
-
                 </div>
                 <div>
                     <div className='Header'>
-
                         <Typography variant='h6'>
                             help
                         </Typography>
