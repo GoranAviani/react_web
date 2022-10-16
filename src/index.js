@@ -6,10 +6,19 @@ import Index from "./components/Index/Index";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Credits from "./components/Credits/Credits";
 import OurWool from "./components/QuickFacts/ExtraPages/OurWool";
-import {creditsUrl, indexUrl, ourWoolUrl, knittingUrl, greenDeliveryUrl, peopleAndPlanetUrl} from "./Route_urls";
+import {
+    allProductsUrl,
+    creditsUrl,
+    indexUrl,
+    ourWoolUrl,
+    knittingUrl,
+    greenDeliveryUrl,
+    peopleAndPlanetUrl
+} from "./Route_urls";
 import Knitting from "./components/QuickFacts/ExtraPages/Knitting";
 import GreenDelivery from "./components/QuickFacts/ExtraPages/GreenDelivery";
 import PeopleAndPlanet from "./components/QuickFacts/ExtraPages/PeopleAndPlanet";
+import AllProducts from "./components/AllProducts/AllProducts";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,6 +31,8 @@ root.render(
                 <Route path={knittingUrl} element={<Knitting/>}/>
                 <Route path={greenDeliveryUrl} element={<GreenDelivery/>}/>
                 <Route path={peopleAndPlanetUrl} element={<PeopleAndPlanet/>}/>
+                <Route path={allProductsUrl} element={<AllProducts/>}/>
+
 
             </Routes>
         </BrowserRouter> </React.StrictMode>
