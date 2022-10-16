@@ -23,7 +23,7 @@ const Footer = () => {
                             your benefits
                         </Typography>
                     </div>
-                        <Links linksArray={aboutCompanyFooterLinks}/>
+                    <Links linksArray={aboutCompanyFooterLinks}/>
                 </div>
                 <div>
                     <div className='Header'>
@@ -31,9 +31,8 @@ const Footer = () => {
                             help
                         </Typography>
                     </div>
-                                           <Links linksArray={aboutCompanyFooterLinks}/>
+                    <Links linksArray={aboutCompanyFooterLinks}/>
 
-                    </div>
                 </div>
             </div>
             <div className='PaymentMethods'>
