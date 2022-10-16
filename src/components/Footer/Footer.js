@@ -32,7 +32,6 @@ const Footer = () => {
                         </Typography>
                     </div>
                     <Links linksArray={aboutCompanyFooterLinks}/>
-
                 </div>
             </div>
             <div className='PaymentMethods'>
