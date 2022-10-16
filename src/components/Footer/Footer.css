@@ -19,3 +19,7 @@
     padding-bottom: 20px;
 }
 
+.Footer .PaymentMethods {
+    display: flex;
+    justify-content: center;
+}
