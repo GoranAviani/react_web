@@ -14,6 +14,11 @@ export const aboutCompanyFooterLinks = {
     'Credits2': creditsUrl
 }
 
+export const yourBenefitsFooterLinks = {
+    'Materials': creditsUrl,
+    'Fair pay': creditsUrl,
+    'Recycling': creditsUrl,
+}
 
 
 
