@@ -6,7 +6,7 @@ const Links = ({linksArray}) => {
 
     return (
         <div className='Links'>
-            {linksArray.map((link, index) => (<Link color="#000"
+            {linksArray.map((link, index) => (<Link key={index} color="#000"
                                                     underline="none"
                                                     href={link}
             >
