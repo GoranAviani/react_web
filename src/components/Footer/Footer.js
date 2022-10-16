@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "@mui/material/Link";
 import './Footer.css'
+import Typography from "@mui/material/Typography";
 
 const Footer = () => {
 
@@ -8,13 +9,30 @@ const Footer = () => {
         <div className="Footer">
             <div className='SiteLinks'>
                 <div>
-                    about wolly
-                    <Link color="#000"
-                          underline="none"
-                          href="/credits"
-                    >
-                        Credits
-                    </Link>
+                    <Typography variant='h6'>
+                        about wolly
+                    </Typography>
+                    <div className='Links'>
+                        <Link color="#000"
+                              underline="none"
+                              href="/credits"
+                        >
+                            Credits
+                        </Link>
+                        <Link color="#000"
+                              underline="none"
+                              href="/credits"
+                        >
+                            Credits
+                        </Link>
+                        <Link color="#000"
+                              underline="none"
+                              href="/credits"
+                        >
+                            Credits
+                        </Link>
+                    </div>
+
                 </div>
                 <div>
                     your benefits
