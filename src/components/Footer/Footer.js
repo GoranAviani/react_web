@@ -45,7 +45,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='PaymentMethods'>
-                a b c d
+                payment methods: a b c d
             </div>
             <div className='SiteDescription'>
                 this webpage is build using and for...
