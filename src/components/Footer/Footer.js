@@ -3,7 +3,7 @@ import Link from "@mui/material/Link";
 import './Footer.css'
 import Typography from "@mui/material/Typography";
 import Links from "./partials/Links";
-import {aboutCompanyFooterLinks, yourBenefitsFooterLinks} from "../../Route_urls";
+import {aboutCompanyFooterLinks, yourBenefitsFooterLinks, helpFooterLinks} from "../../Route_urls";
 
 const Footer = () => {
     return (
@@ -31,7 +31,7 @@ const Footer = () => {
                             help
                         </Typography>
                     </div>
-                    <Links linksArray={aboutCompanyFooterLinks}/>
+                    <Links linksArray={helpFooterLinks}/>
                 </div>
             </div>
             <div className='PaymentMethods'>
