@@ -6,14 +6,42 @@ const Footer = () => {
 
     return (
         <div className="Footer">
-            this is footer
-            <Link color="#000"
-                  underline="none"
-                  href="/credits"
-            >
-                Credits
-            </Link>
+            <div>
+
+
+                <div>
+                    about wolly
+                    <Link color="#000"
+                          underline="none"
+                          href="/credits"
+                    >
+                        Credits
+                    </Link>
+                </div>
+                <div>
+                    your benefits
+                </div>
+                <div>
+                    help
+                </div>
+
+
+            </div>
+            <div className='PaymentMethods'>
+                a b c d
+            </div>
+            <div className='SiteDescription'>
+                this webpage is build using and for...
+                Read more
+            </div>
+            <div className='OurLogo'>
+
+            </div>
+            <div className='CountryInfo'>
+                Sweden
+            </div>
         </div>
+
     )
 }
 
