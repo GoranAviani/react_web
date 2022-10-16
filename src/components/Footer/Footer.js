@@ -3,7 +3,7 @@ import Link from "@mui/material/Link";
 import './Footer.css'
 import Typography from "@mui/material/Typography";
 import Links from "./partials/Links";
-import {aboutCompanyFooterLinks} from "../../Route_urls";
+import {aboutCompanyFooterLinks, yourBenefitsFooterLinks} from "../../Route_urls";
 
 const Footer = () => {
     return (
@@ -23,7 +23,7 @@ const Footer = () => {
                             your benefits
                         </Typography>
                     </div>
-                    <Links linksArray={aboutCompanyFooterLinks}/>
+                    <Links linksArray={yourBenefitsFooterLinks}/>
                 </div>
                 <div>
                     <div className='Header'>
