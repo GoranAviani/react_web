@@ -4,6 +4,11 @@ import Typography from "@mui/material/Typography";
 import Links from "./partials/Links";
 import {aboutCompanyFooterLinks, yourBenefitsFooterLinks, helpFooterLinks} from "../../Route_urls";
 
+const TEXT = {
+    aboutWool: "About wool",
+    benefits: "Benefits",
+    help: "Help",
+}
 const Footer = () => {
     return (
         <div className="Footer">
@@ -11,7 +16,7 @@ const Footer = () => {
                 <div>
                     <div className='Header'>
                         <Typography variant='h6'>
-                            About wool
+                            {TEXT.aboutWool}
                         </Typography>
                     </div>
                     <Links linksArray={aboutCompanyFooterLinks}/>
