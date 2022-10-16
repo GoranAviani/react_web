@@ -1,0 +1,5 @@
+.Footer .SiteLinks .Links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

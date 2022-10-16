@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "@mui/material/Link";
-import '../Footer.css'
+import './Links.css'
 
 const Links = ({linksArray}) => {
 
