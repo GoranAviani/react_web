@@ -37,9 +37,12 @@ const Footer = () => {
 
                 </div>
                 <div>
-                    <Typography variant='h6'>
-                        your benefits
-                    </Typography>
+                    <div className='Header'>
+
+                        <Typography variant='h6'>
+                            your benefits
+                        </Typography>
+                    </div>
                     <div className='Links'>
                         <Link color="#000"
                               underline="none"
@@ -63,9 +66,12 @@ const Footer = () => {
 
                 </div>
                 <div>
-                    <Typography variant='h6'>
-                        help
-                    </Typography>
+                    <div className='Header'>
+
+                        <Typography variant='h6'>
+                            help
+                        </Typography>
+                    </div>
                     <div className='Links'>
                         <Link color="#000"
                               underline="none"
