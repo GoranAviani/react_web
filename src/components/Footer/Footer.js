@@ -2,6 +2,7 @@ import React from "react";
 import Link from "@mui/material/Link";
 import './Footer.css'
 import Typography from "@mui/material/Typography";
+import Links from "./partials/Links";
 
 const Footer = () => {
     return (
@@ -13,6 +14,7 @@ const Footer = () => {
                             about wolly
                         </Typography>
                     </div>
+                    <Links/>
 
 
                 </div>
