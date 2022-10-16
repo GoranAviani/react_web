@@ -11,7 +11,7 @@ const Footer = () => {
                 <div>
                     <div className='Header'>
                         <Typography variant='h6'>
-                            about wolly
+                            About wool
                         </Typography>
                     </div>
                     <Links linksArray={aboutCompanyFooterLinks}/>
@@ -19,7 +19,7 @@ const Footer = () => {
                 <div>
                     <div className='Header'>
                         <Typography variant='h6'>
-                            your benefits
+                            Benefits
                         </Typography>
                     </div>
                     <Links linksArray={yourBenefitsFooterLinks}/>
@@ -27,7 +27,7 @@ const Footer = () => {
                 <div>
                     <div className='Header'>
                         <Typography variant='h6'>
-                            help
+                            Help
                         </Typography>
                     </div>
                     <Links linksArray={helpFooterLinks}/>
