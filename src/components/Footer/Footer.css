@@ -1,2 +1,12 @@
 .Footer {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+
+.Footer .SiteLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
