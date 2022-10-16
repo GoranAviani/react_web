@@ -8,6 +8,7 @@ export const allProductsUrl = "/all_products";
 
 
 export const aboutCompanyFooterLinks = {
+    'Our story': creditsUrl,
     'Credits': creditsUrl,
     'Credits one': creditsUrl,
     'Test credits two': creditsUrl,
@@ -20,6 +21,14 @@ export const yourBenefitsFooterLinks = {
     'Recycling': creditsUrl,
 }
 
+export const helpFooterLinks = {
+    'Customer service': creditsUrl,
+    'Payment & security': creditsUrl,
+    'Contact us': creditsUrl,
+    'Report a issue': creditsUrl,
+    'Cookies': creditsUrl,
 
+
+}
 
 
