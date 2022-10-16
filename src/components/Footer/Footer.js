@@ -4,7 +4,6 @@ import './Footer.css'
 import Typography from "@mui/material/Typography";
 
 const Footer = () => {
-
     return (
         <div className="Footer">
             <div className='SiteLinks'>
