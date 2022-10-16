@@ -34,10 +34,14 @@ const Footer = () => {
 
                 </div>
                 <div>
-                    your benefits
+                    <Typography variant='h6'>
+                        your benefits
+                    </Typography>
                 </div>
                 <div>
-                    help
+                    <Typography variant='h6'>
+                        help
+                    </Typography>
                 </div>
             </div>
             <div className='PaymentMethods'>
