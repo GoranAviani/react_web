@@ -14,26 +14,6 @@ const Footer = () => {
                         </Typography>
                     </div>
 
-                    <div className='Links'>
-                        <Link color="#000"
-                              underline="none"
-                              href="/credits"
-                        >
-                            Credits
-                        </Link>
-                        <Link color="#000"
-                              underline="none"
-                              href="/credits"
-                        >
-                            Credits
-                        </Link>
-                        <Link color="#000"
-                              underline="none"
-                              href="/credits"
-                        >
-                            Credits
-                        </Link>
-                    </div>
 
                 </div>
                 <div>
