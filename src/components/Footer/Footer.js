@@ -8,9 +8,12 @@ const Footer = () => {
         <div className="Footer">
             <div className='SiteLinks'>
                 <div>
-                    <Typography variant='h6'>
-                        about wolly
-                    </Typography>
+                    <div className='Header'>
+                        <Typography variant='h6'>
+                            about wolly
+                        </Typography>
+                    </div>
+
                     <div className='Links'>
                         <Link color="#000"
                               underline="none"
