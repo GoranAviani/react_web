@@ -44,10 +44,10 @@ const Footer = () => {
             <div className='OurLogo'>
                 wolly logo
             </div>
-            <div className='SocialMedia'>
+            <div className='OurSocialMedia'>
                 Social media 1 2 3
             </div>
-            <div className='CountryInfo'>
+            <div className='OurCountry'>
                 Sweden
             </div>
         </div>

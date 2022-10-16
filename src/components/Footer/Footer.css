@@ -35,7 +35,12 @@
     justify-content: center;
 }
 
-.Footer .SocialMedia {
+.Footer .OurSocialMedia {
+    display: flex;
+    justify-content: center;
+}
+
+.Footer .OurCountry {
     display: flex;
     justify-content: center;
 }
