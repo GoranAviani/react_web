@@ -31,25 +31,8 @@ const Footer = () => {
                             help
                         </Typography>
                     </div>
-                    <div className='Links'>
-                        <Link color="#000"
-                              underline="none"
-                              href="/credits"
-                        >
-                            Credits
-                        </Link>
-                        <Link color="#000"
-                              underline="none"
-                              href="/credits"
-                        >
-                            Credits
-                        </Link>
-                        <Link color="#000"
-                              underline="none"
-                              href="/credits"
-                        >
-                            Credits
-                        </Link>
+                                           <Links linksArray={aboutCompanyFooterLinks}/>
+
                     </div>
                 </div>
             </div>
