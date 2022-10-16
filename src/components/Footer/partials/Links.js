@@ -2,28 +2,17 @@ import React from "react";
 import Link from "@mui/material/Link";
 import '../Footer.css'
 
-const Links = () => {
+const Links = ({linksArray}) => {
 
     return (
         <div className='Links'>
-            <Link color="#000"
-                  underline="none"
-                  href="/credits"
+            {linksArray.map(() => (<Link color="#000"
+                                         underline="none"
+                                         href="/credits"
             >
                 Credits
-            </Link>
-            <Link color="#000"
-                  underline="none"
-                  href="/credits"
-            >
-                Credits
-            </Link>
-            <Link color="#000"
-                  underline="none"
-                  href="/credits"
-            >
-                Credits
-            </Link>
+            </Link>))}
+
 
         </div>
 
