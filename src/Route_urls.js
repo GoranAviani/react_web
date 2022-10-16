@@ -23,7 +23,8 @@ export const yourBenefitsFooterLinks = {
 
 export const helpFooterLinks = {
     'Customer service': creditsUrl,
-    'Payment & security': creditsUrl,
+    'Payments & security': creditsUrl,
+    'Returns': creditsUrl,
     'Contact us': creditsUrl,
     'Report a issue': creditsUrl,
     'Cookies': creditsUrl,
