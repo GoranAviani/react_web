@@ -7,6 +7,9 @@ export const peopleAndPlanetUrl = "/people_and_planet";
 export const allProductsUrl = "/all_products";
 
 
+export const aboutWollyFooterLinks = [creditsUrl, creditsUrl, creditsUrl, creditsUrl]
+
+
 
 
 
