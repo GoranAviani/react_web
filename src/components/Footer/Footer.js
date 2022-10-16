@@ -6,9 +6,7 @@ const Footer = () => {
 
     return (
         <div className="Footer">
-            <div>
-
-
+            <div className='SiteLinks'>
                 <div>
                     about wolly
                     <Link color="#000"
@@ -24,8 +22,6 @@ const Footer = () => {
                 <div>
                     help
                 </div>
-
-
             </div>
             <div className='PaymentMethods'>
                 a b c d
@@ -35,7 +31,10 @@ const Footer = () => {
                 Read more
             </div>
             <div className='OurLogo'>
-
+                wolly logo
+            </div>
+            <div className='SocialMedia'>
+                Social media 1 2 3
             </div>
             <div className='CountryInfo'>
                 Sweden
