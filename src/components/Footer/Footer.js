@@ -40,11 +40,52 @@ const Footer = () => {
                     <Typography variant='h6'>
                         your benefits
                     </Typography>
+                    <div className='Links'>
+                        <Link color="#000"
+                              underline="none"
+                              href="/credits"
+                        >
+                            Credits
+                        </Link>
+                        <Link color="#000"
+                              underline="none"
+                              href="/credits"
+                        >
+                            Credits
+                        </Link>
+                        <Link color="#000"
+                              underline="none"
+                              href="/credits"
+                        >
+                            Credits
+                        </Link>
+                    </div>
+
                 </div>
                 <div>
                     <Typography variant='h6'>
                         help
                     </Typography>
+                    <div className='Links'>
+                        <Link color="#000"
+                              underline="none"
+                              href="/credits"
+                        >
+                            Credits
+                        </Link>
+                        <Link color="#000"
+                              underline="none"
+                              href="/credits"
+                        >
+                            Credits
+                        </Link>
+                        <Link color="#000"
+                              underline="none"
+                              href="/credits"
+                        >
+                            Credits
+                        </Link>
+                    </div>
                 </div>
             </div>
             <div className='PaymentMethods'>
