@@ -35,8 +35,10 @@
 }
 
 .Footer .OurSocialMedia {
+    width: 15%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    margin: auto;
 }
 
 .Footer .OurCountry {
