@@ -15,7 +15,7 @@ const Footer = () => {
             <div className='SiteLinks'>
                 <div>
                     <div className='Header'>
-                        <Typography variant='h6'>
+                        <Typography>
                             {TEXT.aboutWool}
                         </Typography>
                     </div>
@@ -23,7 +23,7 @@ const Footer = () => {
                 </div>
                 <div>
                     <div className='Header'>
-                        <Typography variant='h6'>
+                        <Typography>
                             Benefits
                         </Typography>
                     </div>
@@ -31,7 +31,7 @@ const Footer = () => {
                 </div>
                 <div>
                     <div className='Header'>
-                        <Typography variant='h6'>
+                        <Typography>
                             Help
                         </Typography>
                     </div>
