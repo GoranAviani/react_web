@@ -4,6 +4,7 @@ import Typography from "@mui/material/Typography";
 import Links from "./partials/Links";
 import {aboutCompanyFooterLinks, yourBenefitsFooterLinks, helpFooterLinks} from "../../Route_urls";
 import {facebook_16} from "../../static/icons/icons";
+import Spacer from "../Spacer";
 
 const TEXT = {
     aboutWool: "About wool",
@@ -49,11 +50,15 @@ const Footer = () => {
             <div className='OurLogo'>
                 wolly logo
             </div>
+            <Spacer axis="vertical" size={25}/>
+
             <div className='OurSocialMedia'>
                 <img src={facebook_16}/>
                 <img src={facebook_16}/>
                 <img src={facebook_16}/>
             </div>
+            <Spacer axis="vertical" size={25}/>
+
             <div className='OurCountry'>
                 Sweden
             </div>
