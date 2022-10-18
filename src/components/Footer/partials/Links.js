@@ -1,27 +1,26 @@
 import React from "react";
 import Link from "@mui/material/Link";
+import './Links.css'
 
-const Links = () => {
-    <div className='Links'>
-        <Link color="#000"
-              underline="none"
-              href="/credits"
-        >
-            Credits
-        </Link>
-        <Link color="#000"
-              underline="none"
-              href="/credits"
-        >
-            Credits
-        </Link>
-        <Link color="#000"
-              underline="none"
-              href="/credits"
-        >
-            Credits
-        </Link>
-    </div>
+const Links = ({linksArray}) => {
+
+    return (
+        <div className='Links'>
+            {Object.entries(linksArray).map(([name, link], index) => (
+                <div className='Link'><Link key={index} color="#000"
+                                            underline="none"
+                                            href={link}
+                >
+                    {name}
+                </Link></div>
+            ))}
+
+
+        </div>
+
+
+    )
+
 }
 
 export default Links;

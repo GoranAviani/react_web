@@ -1,74 +1,43 @@
 import React from "react";
-import Link from "@mui/material/Link";
 import './Footer.css'
 import Typography from "@mui/material/Typography";
+import Links from "./partials/Links";
+import {aboutCompanyFooterLinks, yourBenefitsFooterLinks, helpFooterLinks} from "../../Route_urls";
+import {facebook_16} from "../../static/icons/icons";
+import Spacer from "../Spacer";
 
+const TEXT = {
+    aboutWool: "About wool",
+    benefits: "Benefits",
+    help: "Help",
+}
 const Footer = () => {
     return (
         <div className="Footer">
             <div className='SiteLinks'>
                 <div>
                     <div className='Header'>
-                        <Typography variant='h6'>
-                            about wolly
+                        <Typography sx={{fontWeight: 700}}>
+                            {TEXT.aboutWool}
                         </Typography>
                     </div>
-
-
+                    <Links linksArray={aboutCompanyFooterLinks}/>
                 </div>
                 <div>
                     <div className='Header'>
-                        <Typography variant='h6'>
-                            your benefits
+                        <Typography sx={{fontWeight: 700}}>
+                            Benefits
                         </Typography>
                     </div>
-                    <div className='Links'>
-                        <Link color="#000"
-                              underline="none"
-                              href="/credits"
-                        >
-                            Credits
-                        </Link>
-                        <Link color="#000"
-                              underline="none"
-                              href="/credits"
-                        >
-                            Credits
-                        </Link>
-                        <Link color="#000"
-                              underline="none"
-                              href="/credits"
-                        >
-                            Credits
-                        </Link>
-                    </div>
+                    <Links linksArray={yourBenefitsFooterLinks}/>
                 </div>
                 <div>
                     <div className='Header'>
-                        <Typography variant='h6'>
-                            help
+                        <Typography sx={{fontWeight: 700}}>
+                            Help
                         </Typography>
                     </div>
-                    <div className='Links'>
-                        <Link color="#000"
-                              underline="none"
-                              href="/credits"
-                        >
-                            Credits
-                        </Link>
-                        <Link color="#000"
-                              underline="none"
-                              href="/credits"
-                        >
-                            Credits
-                        </Link>
-                        <Link color="#000"
-                              underline="none"
-                              href="/credits"
-                        >
-                            Credits
-                        </Link>
-                    </div>
+                    <Links linksArray={helpFooterLinks}/>
                 </div>
             </div>
             <div className='PaymentMethods'>
@@ -81,11 +50,15 @@ const Footer = () => {
             <div className='OurLogo'>
                 wolly logo
             </div>
-            <div className='SocialMedia'>
-                Social media 1 2 3
+            <Spacer axis="vertical" size={25}/>
+            <div className='OurSocialMedia'>
+                <img src={facebook_16}/>
+                <img src={facebook_16}/>
+                <img src={facebook_16}/>
             </div>
-            <div className='CountryInfo'>
-                Sweden
+            <Spacer axis="vertical" size={25}/>
+            <div className='OurCountry'>
+                Sweden | kr.
             </div>
         </div>
 

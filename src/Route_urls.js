@@ -7,6 +7,30 @@ export const peopleAndPlanetUrl = "/people_and_planet";
 export const allProductsUrl = "/all_products";
 
 
+export const aboutCompanyFooterLinks = {
+    'Our story': creditsUrl,
+    'About': creditsUrl,
+    'Credits': creditsUrl,
+    'Credits one': creditsUrl,
+    'Test credits two': creditsUrl,
+    'Credits2': creditsUrl
+}
 
+export const yourBenefitsFooterLinks = {
+    'Materials': creditsUrl,
+    'Fair pay': creditsUrl,
+    'Recycling': creditsUrl,
+}
+
+export const helpFooterLinks = {
+    'Customer service': creditsUrl,
+    'Payments & security': creditsUrl,
+    'Returns': creditsUrl,
+    'Contact us': creditsUrl,
+    'Report a issue': creditsUrl,
+    'Cookies': creditsUrl,
+
+
+}
 
 

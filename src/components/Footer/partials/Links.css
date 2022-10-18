@@ -1,0 +1,9 @@
+.Footer .SiteLinks .Links {
+    display: flex;
+    flex-direction: column;
+}
+
+.Links .Link {
+    padding-bottom: 15px;
+
+}
