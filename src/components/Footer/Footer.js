@@ -15,7 +15,7 @@ const Footer = () => {
             <div className='SiteLinks'>
                 <div>
                     <div className='Header'>
-                        <Typography>
+                        <Typography sx={{fontWeight: 700}}>
                             {TEXT.aboutWool}
                         </Typography>
                     </div>
@@ -23,7 +23,7 @@ const Footer = () => {
                 </div>
                 <div>
                     <div className='Header'>
-                        <Typography>
+                        <Typography sx={{fontWeight: 700}}>
                             Benefits
                         </Typography>
                     </div>
@@ -31,7 +31,7 @@ const Footer = () => {
                 </div>
                 <div>
                     <div className='Header'>
-                        <Typography>
+                        <Typography sx={{fontWeight: 700}}>
                             Help
                         </Typography>
                     </div>
