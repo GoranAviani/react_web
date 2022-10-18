@@ -60,7 +60,7 @@ const Footer = () => {
             <Spacer axis="vertical" size={25}/>
 
             <div className='OurCountry'>
-                Sweden
+                Sweden | kr.
             </div>
         </div>
 
