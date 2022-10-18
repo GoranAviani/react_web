@@ -1,7 +1,6 @@
 .Footer {
     display: flex;
     flex-direction: column;
-    padding: 80px;
     background-color: #e4e4e4;
 }
 
@@ -9,7 +8,8 @@
 .Footer .SiteLinks {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 60px;
 
 }
 
