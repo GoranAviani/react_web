@@ -18,4 +18,5 @@ export const knitting_color_128 = require('./quickFacts/knitting_color_128.png')
 
 
 export const facebook_24 = require('./socialMedia/facebook_24.png');
+export const facebook_16 = require('./socialMedia/facebook_16.png');
 

@@ -3,6 +3,7 @@ import './Footer.css'
 import Typography from "@mui/material/Typography";
 import Links from "./partials/Links";
 import {aboutCompanyFooterLinks, yourBenefitsFooterLinks, helpFooterLinks} from "../../Route_urls";
+import {facebook_16} from "../../static/icons/icons";
 
 const TEXT = {
     aboutWool: "About wool",
@@ -49,7 +50,9 @@ const Footer = () => {
                 wolly logo
             </div>
             <div className='OurSocialMedia'>
-                Social media 1 2 3
+                <img src={facebook_16}/>
+                <img src={facebook_16}/>
+                <img src={facebook_16}/>
             </div>
             <div className='OurCountry'>
                 Sweden
