@@ -51,14 +51,12 @@ const Footer = () => {
                 wolly logo
             </div>
             <Spacer axis="vertical" size={25}/>
-
             <div className='OurSocialMedia'>
                 <img src={facebook_16}/>
                 <img src={facebook_16}/>
                 <img src={facebook_16}/>
             </div>
             <Spacer axis="vertical" size={25}/>
-
             <div className='OurCountry'>
                 Sweden | kr.
             </div>
