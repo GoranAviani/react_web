@@ -3,7 +3,7 @@ import './Footer.css'
 import Typography from "@mui/material/Typography";
 import Links from "./partials/Links";
 import {aboutCompanyFooterLinks, yourBenefitsFooterLinks, helpFooterLinks} from "../../Route_urls";
-import {facebook_16, facebook_24} from "../../static/icons/icons";
+import {facebook_24} from "../../static/icons/icons";
 import Spacer from "../Spacer";
 import Button from '@mui/material/Button';
 import useWindowDimensions from "../hooks/WindowDimension/useWindowDimensions";
