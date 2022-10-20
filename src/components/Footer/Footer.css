@@ -65,4 +65,8 @@
 
     }
 
+    .Footer .SiteLinks .Header .ButtonGroup:first-child {
+        display: flex;
+    }
+
 }
