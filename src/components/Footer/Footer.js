@@ -98,7 +98,7 @@ const Footer = () => {
                             </Typography>
                         }
                     </div>
-                    {isMobile && showHelpMobileHeader &&
+                    {((isMobile && showAboutWoolMobileHeader) || (!isMobile && showAboutWoolMobileHeader)) &&
                         <Links linksArray={helpFooterLinks}/>}
 
 
