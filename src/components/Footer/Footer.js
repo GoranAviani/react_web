@@ -58,7 +58,9 @@ const Footer = () => {
                     <div className='Header'>
                         {isMobile ?
                             <div className='ButtonGroup'>
-                                <Button disableRipple style={{minWidth: "90%", justifyContent: "flex-start"}}
+                                <Button disableRipple style={{
+                                    minWidth: "90%", justifyContent: "flex-start", color: "#000",
+                                }}
                                         onClick={() => {
                                             setShowBenefitsMobileHeader(!showBenefitsMobileHeader)
                                         }}>
