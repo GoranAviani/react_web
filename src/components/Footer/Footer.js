@@ -3,7 +3,7 @@ import './Footer.css'
 import Typography from "@mui/material/Typography";
 import Links from "./partials/Links";
 import {aboutCompanyFooterLinks, yourBenefitsFooterLinks, helpFooterLinks} from "../../Route_urls";
-import {facebook_16} from "../../static/icons/icons";
+import {facebook_16, facebook_24} from "../../static/icons/icons";
 import Spacer from "../Spacer";
 import SendIcon from '@mui/icons-material/Send';
 import Button from '@mui/material/Button';
@@ -126,9 +126,9 @@ const Footer = () => {
             </div>
             <Spacer axis="vertical" size={25}/>
             <div className='OurSocialMedia'>
-                <img src={facebook_16}/>
-                <img src={facebook_16}/>
-                <img src={facebook_16}/>
+                <img src={facebook_24}/>
+                <img src={facebook_24}/>
+                <img src={facebook_24}/>
             </div>
             <Spacer axis="vertical" size={25}/>
             <div className='OurCountry'>
