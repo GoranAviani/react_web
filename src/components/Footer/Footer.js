@@ -62,11 +62,10 @@ const Footer = () => {
 
                 </div>
                 <div>
-
                     <div className='Header'>
                         {isMobile ? <Button onClick={() => {
                             setShowHelpMobileHeader(!showHelpMobileHeader)
-                        }} endIcon={<SendIcon/>}>
+                        }} endIcon={showAboutWoolMobileHeader ? <RemoveIcon/> : <AddIcon/>}>
                             {TEXT.help}
                         </Button> : <Typography sx={{fontWeight: 700}}>
                             {TEXT.help}
