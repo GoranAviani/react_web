@@ -1,15 +1,15 @@
 .Footer {
     display: flex;
     flex-direction: column;
-    padding: 80px;
-    background-color: #e4e4e4;
+    background-color: #ebebe8;
 }
 
 
 .Footer .SiteLinks {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 60px;
 
 }
 
@@ -35,7 +35,7 @@
 }
 
 .Footer .OurSocialMedia {
-    width: 15%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -44,4 +44,29 @@
 .Footer .OurCountry {
     display: flex;
     justify-content: center;
+}
+
+
+@media screen and (max-width: 600px) {
+    .Footer .SiteLinks {
+        flex-direction: column;
+        padding: 40px 20px 20px 20px;
+
+    }
+
+    .Footer .SiteLinks .Header {
+        padding-bottom: 5px;
+    }
+
+    .Footer .SiteLinks .Header .ButtonGroup {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .Footer .SiteLinks .Header .ButtonGroup:first-child {
+        display: flex;
+    }
+
 }

@@ -4,15 +4,11 @@ import Button from '@mui/material/Button';
 import Modal from '@mui/material/Modal';
 import './BasicModal.css'
 import useWindowDimensions from "../hooks/WindowDimension/useWindowDimensions";
-import {useState} from "react";
 import Typography from "@mui/material/Typography";
 import Spacer from "../Spacer";
 
 const BasicModal = ({open, handleClose, title, component, imageSrc = null, showXClose = false}) => {
     const {isMobile} = useWindowDimensions()
-    console.log({isMobile})
-    console.log({imageSrc})
-
     return (
         <Modal
             open={open}
