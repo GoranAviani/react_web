@@ -59,8 +59,10 @@
     }
 
     .Footer .SiteLinks .Header .ButtonGroup {
-        display: flex;
         width: 100%;
+        display: flex;
         justify-content: space-between;
+
     }
+
 }
