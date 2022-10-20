@@ -66,8 +66,8 @@ const Footer = () => {
                                 </Button>
                                 <Button disableRipple style={{minWidth: "10%"}}
                                         onClick={() => {
-                                            setShowHelpMobileHeader(!showHelpMobileHeader)
-                                        }} endIcon={showHelpMobileHeader ? <RemoveIcon/> : <AddIcon/>}>
+                                            setShowBenefitsMobileHeader(!showBenefitsMobileHeader)
+                                        }} endIcon={showBenefitsMobileHeader ? <RemoveIcon/> : <AddIcon/>}>
                                 </Button>
                             </div> : <Typography sx={{fontWeight: 700}}>
                                 {TEXT.benefits}
