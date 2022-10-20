@@ -35,10 +35,16 @@ const Footer = () => {
                         {isMobile ?
                             <div className='ButtonGroup'>
 
-                                <Button onClick={() => {
-                                    setShowAboutWoolMobileHeader(!showAboutWoolMobileHeader)
-                                }} endIcon={showAboutWoolMobileHeader ? <RemoveIcon/> : <AddIcon/>}>
+                                <Button disableRipple style={{minWidth: "90%", justifyContent: "flex-start"}}
+                                        onClick={() => {
+                                            setShowAboutWoolMobileHeader(!showAboutWoolMobileHeader)
+                                        }}>
                                     {TEXT.aboutWool}
+                                </Button>
+                                <Button disableRipple style={{minWidth: "10%"}}
+                                        onClick={() => {
+                                            setShowHelpMobileHeader(!showHelpMobileHeader)
+                                        }} endIcon={showHelpMobileHeader ? <RemoveIcon/> : <AddIcon/>}>
                                 </Button>
                             </div> : <Typography sx={{fontWeight: 700}}>
                                 {TEXT.aboutWool}
