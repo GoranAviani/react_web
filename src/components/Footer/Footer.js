@@ -80,7 +80,7 @@ const Footer = () => {
                             </Typography>
                         }
                     </div>
-                    {((isMobile && showAboutWoolMobileHeader) || (!isMobile && showAboutWoolMobileHeader)) &&
+                    {((isMobile && showBenefitsMobileHeader) || (!isMobile && showBenefitsMobileHeader)) &&
                         <Links linksArray={yourBenefitsFooterLinks}/>}
                 </div>
                 <div>
@@ -108,7 +108,7 @@ const Footer = () => {
                             </Typography>
                         }
                     </div>
-                    {((isMobile && showAboutWoolMobileHeader) || (!isMobile && showAboutWoolMobileHeader)) &&
+                    {((isMobile && showHelpMobileHeader) || (!isMobile && showHelpMobileHeader)) &&
                         <Links linksArray={helpFooterLinks}/>}
 
 
