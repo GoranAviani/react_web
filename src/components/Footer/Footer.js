@@ -63,13 +63,13 @@ const Footer = () => {
                         {isMobile ?
 
                             <div className='ButtonGroup'>
-                                <Button style={{minWidth: "90%", justifyContent: "flex-start"}}
+                                <Button disableRipple style={{minWidth: "90%", justifyContent: "flex-start"}}
                                         onClick={() => {
                                             setShowHelpMobileHeader(!showHelpMobileHeader)
                                         }}>
                                     {TEXT.help}
                                 </Button>
-                                <Button style={{minWidth: "10%"}}
+                                <Button disableRipple style={{minWidth: "10%"}}
                                         onClick={() => {
                                             setShowHelpMobileHeader(!showHelpMobileHeader)
                                         }} endIcon={showHelpMobileHeader ? <RemoveIcon/> : <AddIcon/>}>
