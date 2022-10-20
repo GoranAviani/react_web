@@ -51,7 +51,7 @@ const Footer = () => {
                             </Typography>
                         }
                     </div>
-                    {(isMobile && showAboutWoolMobileHeader) &&
+                    {((isMobile && showAboutWoolMobileHeader) || (!isMobile && showAboutWoolMobileHeader)) &&
                         <Links linksArray={aboutCompanyFooterLinks}/>}
                 </div>
                 <div>
