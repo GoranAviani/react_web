@@ -46,11 +46,12 @@ const Footer = () => {
                 </div>
                 <div>
                     <div className='Header'>
-                        {isMobile ? <Button onClick={() => {
-                            setShowBenefitsMobileHeader(!showBenefitsMobileHeader)
-                        }} endIcon={showAboutWoolMobileHeader ? <RemoveIcon/> : <AddIcon/>}>
-                            {TEXT.benefits}
-                        </Button> : <Typography sx={{fontWeight: 700}}>
+                        {isMobile ? <div className='ButtonGroup'>
+                            <Button onClick={() => {
+                                setShowBenefitsMobileHeader(!showBenefitsMobileHeader)
+                            }} endIcon={showAboutWoolMobileHeader ? <RemoveIcon/> : <AddIcon/>}>
+                                {TEXT.benefits}
+                            </Button></div> : <Typography sx={{fontWeight: 700}}>
                             {TEXT.benefits}
                         </Typography>
                         }
