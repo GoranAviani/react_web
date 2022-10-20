@@ -21,7 +21,6 @@ const Footer = () => {
     const [showBenefitsMobileHeader, setShowBenefitsMobileHeader] = useState(false)
     const [showHelpMobileHeader, setShowHelpMobileHeader] = useState(false)
     const {isMobile} = useWindowDimensions()
-    console.log(isMobile)
     useEffect(() => {
         if (!isMobile) {
             setShowAboutWoolMobileHeader(true)
@@ -61,13 +60,23 @@ const Footer = () => {
                 </div>
                 <div>
                     <div className='Header'>
-                        {isMobile ? <Button onClick={() => {
-                            setShowHelpMobileHeader(!showHelpMobileHeader)
-                        }} endIcon={showAboutWoolMobileHeader ? <RemoveIcon/> : <AddIcon/>}>
-                            {TEXT.help}
-                        </Button> : <Typography sx={{fontWeight: 700}}>
-                            {TEXT.help}
-                        </Typography>
+                        {isMobile ?
+
+                            <div className='ButtonGroup'>
+                                <Button
+                                    onClick={() => {
+                                        setShowHelpMobileHeader(!showHelpMobileHeader)
+                                    }}>
+                                    {TEXT.help}
+                                </Button>
+                                <Button
+                                    onClick={() => {
+                                        setShowHelpMobileHeader(!showHelpMobileHeader)
+                                    }} endIcon={showHelpMobileHeader ? <RemoveIcon/> : <AddIcon/>}>
+                                </Button>
+                            </div> : <Typography sx={{fontWeight: 700}}>
+                                {TEXT.help}
+                            </Typography>
                         }
                     </div>
                     {isMobile && showHelpMobileHeader &&
