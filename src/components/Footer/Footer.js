@@ -49,7 +49,7 @@ const Footer = () => {
                     <div className='Header'>
                         {isMobile ? <Button onClick={() => {
                             setShowBenefitsMobileHeader(!showBenefitsMobileHeader)
-                        }} endIcon={<SendIcon/>}>
+                        }} endIcon={showAboutWoolMobileHeader ? <RemoveIcon/> : <AddIcon/>}>
                             {TEXT.benefits}
                         </Button> : <Typography sx={{fontWeight: 700}}>
                             {TEXT.benefits}
