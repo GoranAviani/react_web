@@ -41,7 +41,9 @@ const Footer = () => {
                                         }}>
                                     {TEXT.aboutWool}
                                 </Button>
-                                <Button disableRipple style={{minWidth: "10%"}}
+                                <Button disableRipple style={{
+                                    minWidth: "10%", color: "#000",
+                                }}
                                         onClick={() => {
                                             setShowAboutWoolMobileHeader(!showAboutWoolMobileHeader)
                                         }} endIcon={showAboutWoolMobileHeader ? <RemoveIcon/> : <AddIcon/>}>
