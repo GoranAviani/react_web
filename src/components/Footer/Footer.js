@@ -32,13 +32,17 @@ const Footer = () => {
             <div className='SiteLinks'>
                 <div>
                     <div className='Header'>
-                        {isMobile ? <Button onClick={() => {
-                            setShowAboutWoolMobileHeader(!showAboutWoolMobileHeader)
-                        }} endIcon={showAboutWoolMobileHeader ? <RemoveIcon/> : <AddIcon/>}>
-                            {TEXT.aboutWool}
-                        </Button> : <Typography sx={{fontWeight: 700}}>
-                            {TEXT.aboutWool}
-                        </Typography>
+                        {isMobile ?
+                            <div className='ButtonGroup'>
+
+                                <Button onClick={() => {
+                                    setShowAboutWoolMobileHeader(!showAboutWoolMobileHeader)
+                                }} endIcon={showAboutWoolMobileHeader ? <RemoveIcon/> : <AddIcon/>}>
+                                    {TEXT.aboutWool}
+                                </Button>
+                            </div> : <Typography sx={{fontWeight: 700}}>
+                                {TEXT.aboutWool}
+                            </Typography>
                         }
                     </div>
                     {isMobile && showAboutWoolMobileHeader &&
