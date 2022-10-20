@@ -51,7 +51,8 @@ const Footer = () => {
                                 setShowBenefitsMobileHeader(!showBenefitsMobileHeader)
                             }} endIcon={showAboutWoolMobileHeader ? <RemoveIcon/> : <AddIcon/>}>
                                 {TEXT.benefits}
-                            </Button></div> : <Typography sx={{fontWeight: 700}}>
+                            </Button>
+                        </div> : <Typography sx={{fontWeight: 700}}>
                             {TEXT.benefits}
                         </Typography>
                         }
