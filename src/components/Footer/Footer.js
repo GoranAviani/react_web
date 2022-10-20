@@ -58,8 +58,6 @@ const Footer = () => {
                     </div>
                     {isMobile && showBenefitsMobileHeader &&
                         <Links linksArray={yourBenefitsFooterLinks}/>}
-
-
                 </div>
                 <div>
                     <div className='Header'>
