@@ -45,3 +45,16 @@
     display: flex;
     justify-content: center;
 }
+
+
+@media screen and (max-width: 600px) {
+    .Footer .SiteLinks {
+        flex-direction: column;
+        padding: 40px 20px 20px 20px;
+
+    }
+
+    .Footer .SiteLinks .Header {
+        padding-bottom: 5px;
+    }
+}
