@@ -5,7 +5,6 @@ import Links from "./partials/Links";
 import {aboutCompanyFooterLinks, yourBenefitsFooterLinks, helpFooterLinks} from "../../Route_urls";
 import {facebook_16, facebook_24} from "../../static/icons/icons";
 import Spacer from "../Spacer";
-import SendIcon from '@mui/icons-material/Send';
 import Button from '@mui/material/Button';
 import useWindowDimensions from "../hooks/WindowDimension/useWindowDimensions";
 import AddIcon from '@mui/icons-material/Add';
