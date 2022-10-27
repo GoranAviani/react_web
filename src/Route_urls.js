@@ -4,7 +4,7 @@ export const ourWoolUrl = "/our_wool";
 export const knittingUrl = "/how_we_knit";
 export const greenDeliveryUrl = "/green_delivery";
 export const peopleAndPlanetUrl = "/people_and_planet";
-export const allProductsUrl = "/all_products";
+export const productListUrl = "/products";
 
 
 export const aboutCompanyFooterLinks = {
