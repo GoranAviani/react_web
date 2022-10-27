@@ -14,10 +14,7 @@ const ProductList = ({products}) => {
                 <div>
                     prod 2
                 </div>
-
             </div>
-
-
         </>
 
     )
