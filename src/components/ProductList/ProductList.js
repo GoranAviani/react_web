@@ -1,10 +1,14 @@
 import React from 'react';
+import './ProductList.css'
 
-
-const ProductList = () => {
+const ProductList = ({products}) => {
 
     return (
-        <>all products</>
+        <div className="productList">
+            all products
+
+
+        </div>
     )
 }
 
