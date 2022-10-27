@@ -1,18 +1,25 @@
 import React from 'react';
 import './ProductList.css'
+import Navigation from "../Navigation/Navigation";
 
 const ProductList = ({products}) => {
 
     return (
-        <div className="productList">
-            <div>
-                prod 1
-            </div>
-            <div>
-                prod 2
+        <>
+            <Navigation/>
+            <div className="productList">
+                <div>
+                    prod 1
+                </div>
+                <div>
+                    prod 2
+                </div>
+
             </div>
 
-        </div>
+
+        </>
+
     )
 }
 
