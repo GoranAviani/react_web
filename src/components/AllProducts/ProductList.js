@@ -1,11 +1,11 @@
 import React from 'react';
 
 
-const AllProducts = () => {
+const ProductList = () => {
 
     return (
         <>all products</>
     )
 }
 
-export default AllProducts;
+export default ProductList;

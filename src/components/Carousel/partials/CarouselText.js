@@ -35,7 +35,7 @@ const CarouselText = () => {
                 borderColor: "#000",
                 padding: "15px 36px",
                 fontSize: "18px"
-            }} variant="outlined" href="/all_products">{TEXT.shopNow}</Button>
+            }} variant="outlined" href="/products">{TEXT.shopNow}</Button>
         </div>
     )
 }
