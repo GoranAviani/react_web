@@ -10,7 +10,7 @@ const ProductList = ({products}) => {
             <Navigation/>
             <div className="productList">
                 {TEST_PRODUCTS.data.map((product) => (
-                    <div className="user">{product.name}</div>
+                    <div className="productCard">{product.name}</div>
                 ))}
                 <div>
                     prod 1
