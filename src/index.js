@@ -18,7 +18,7 @@ import {
 import Knitting from "./components/QuickFacts/ExtraPages/Knitting";
 import GreenDelivery from "./components/QuickFacts/ExtraPages/GreenDelivery";
 import PeopleAndPlanet from "./components/QuickFacts/ExtraPages/PeopleAndPlanet";
-import ProductList from "./components/AllProducts/ProductList";
+import ProductList from "./components/ProductList/ProductList";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
