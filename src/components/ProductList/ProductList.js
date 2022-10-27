@@ -5,8 +5,12 @@ const ProductList = ({products}) => {
 
     return (
         <div className="productList">
-            all products
-
+            <div>
+                prod 1
+            </div>
+            <div>
+                prod 2
+            </div>
 
         </div>
     )
