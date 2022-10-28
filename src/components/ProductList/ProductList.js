@@ -2,6 +2,7 @@ import React from 'react';
 import './ProductList.css'
 import Navigation from "../Navigation/Navigation";
 import {TEST_PRODUCTS} from "./TEST_PRODUCTS";
+import Button from "@mui/material/Button";
 
 const ProductList = ({products}) => {
 
@@ -14,6 +15,13 @@ const ProductList = ({products}) => {
                 ))}
                 <div>
                     prod 1
+                    <Button style={{
+                        borderRadius: 0,
+                        color: "#000",
+                        borderColor: "#000",
+                        padding: "15px 36px",
+                        fontSize: "18px"
+                    }} variant="outlined" href="/product">aaa</Button>
                 </div>
                 <div>
                     prod 2
