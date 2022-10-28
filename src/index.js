@@ -13,12 +13,14 @@ import {
     ourWoolUrl,
     knittingUrl,
     greenDeliveryUrl,
-    peopleAndPlanetUrl
+    peopleAndPlanetUrl,
+    productCardUrl
 } from "./Route_urls";
 import Knitting from "./components/QuickFacts/ExtraPages/Knitting";
 import GreenDelivery from "./components/QuickFacts/ExtraPages/GreenDelivery";
 import PeopleAndPlanet from "./components/QuickFacts/ExtraPages/PeopleAndPlanet";
 import ProductList from "./components/ProductList/ProductList";
+import ProductCard from "./components/ProductList/partials/ProductCard";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -32,8 +34,7 @@ root.render(
                 <Route path={greenDeliveryUrl} element={<GreenDelivery/>}/>
                 <Route path={peopleAndPlanetUrl} element={<PeopleAndPlanet/>}/>
                 <Route path={productListUrl} element={<ProductList/>}/>
-
-
+                <Route path={productCardUrl} element={<ProductCard/>}/>
             </Routes>
         </BrowserRouter> </React.StrictMode>
 );
