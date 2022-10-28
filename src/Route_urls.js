@@ -5,6 +5,7 @@ export const knittingUrl = "/how_we_knit";
 export const greenDeliveryUrl = "/green_delivery";
 export const peopleAndPlanetUrl = "/people_and_planet";
 export const productListUrl = "/products";
+export const productCardUrl = "/product";
 
 
 export const aboutCompanyFooterLinks = {
